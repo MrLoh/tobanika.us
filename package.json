@@ -25,7 +25,7 @@
     "url": "https://github.com/MrLoh/tobanika.us/issues"
   },
   "homepage": "http://tobanika.us",
-  "main": "Gruntfile.coffee",
+  "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

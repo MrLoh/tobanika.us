@@ -48,61 +48,21 @@ module.exports = (grunt) ->
 					ext: '.min.js'
 				]
 
-		# Copy JS and CSS
-		copy:
-			mincss:
-				expand: true
-				cwd: 'assets/css/'
-				src: ['*.min.css']
-				dest: '_site/assets/css/'
-			minjs:
-				expand: true
-				cwd: 'assets/js/'
-				src: ['*.min.js']
-				dest: '_site/assets/js/'
-
-		# Jekyll Build and run Ruby scripts
-		shell:
-			jekyll_drafts:
-				command: 'jekyll build --drafts'
-			jekyll:
-				command: 'jekyll build'
-			archive:
-				command: 'ruby archive/_generator.ruby'
-
 		# Watch
 		watch:
 			css:
 				files: ['assets/css/*.scss']
-				tasks: ['sass', 'postcss', 'copy:mincss']
+				tasks: ['sass', 'postcss']
 			js:
 				files: ['assets/js/*.js', '!assets/js/*.min.js']
-				tasks: ['import', 'uglify', 'copy:minjs']
-			jekyll:
-				files: ['*.html', '*.md', '*.yml', '*.png', '*.ico', '*.xml', '_includes/**', '_layouts/*', '_posts/*', 'archive/**', 'assets/img/**', 'assets/lib/*', 'assets/svg/*']
-				tasks: ['shell:archive', 'shell:jekyll']
-
-		# Serve
-		connect:
-			server:
-				options:
-					livereload: true
-					base: '_site/'
-					port: 4000
+				tasks: ['import', 'uglify']
 
 
 
 	# Register Tasks
-	grunt.registerTask 'build', [
+	grunt.registerTask 'default', [
 		'sass'
 		'postcss'
 		'import'
 		'uglify'
-		'shell:jekyll'
-		'shell:archive'
-		'shell:jekyll'
-	]
-	grunt.registerTask 'serve', [
-		'connect:server'
-		'watch'
 	]
