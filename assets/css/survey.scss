@@ -12,6 +12,8 @@ html, body {
     font-weight: 400;
     font-size: 16pt;
     margin: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 main {
@@ -33,7 +35,7 @@ main {
     z-index: 0;
     position: absolute;
     bottom: -4.5rem;
-    right: -5.3rem;
+    right: -4.9rem;
     width: 16rem;
 }
 
