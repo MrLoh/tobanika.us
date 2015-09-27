@@ -11,7 +11,6 @@
 <body>
 	<h1>Wer bist du und wenn ja, wie viele?</h1>
 
-	<script src="../assets/lib/jquery-2.1.4.min.js"></script>
-	<script src="../assets/js/holiday.min.js"></script>
+	<script src="../assets/js/survey.min.js"></script>
 </body>
 </html>
