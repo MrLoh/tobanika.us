@@ -1,14 +1,82 @@
+$background: #0E2132;
+$light-green: #bcb868;
+$dark-green: #8f8938;
+
+$adelle: "adelle-condensed", sans-serif;
+$proxima: "proxima-nova-alt-condensed", sans-serif;
+
 html, body {
-    background: #0E2132;
+    background: $background;
     color: white;
-    font-family: "proxima-nova-alt-condensed", sans-serif;
+    font-family: $proxima;
     font-weight: 400;
     font-size: 16pt;
+    margin: 0;
 }
 
-h1 {
-    font-family: "adelle-condensed", sans-serif;
-    font-weight: 200;
-    font-size: 2rem;
-    text-transform: uppercase;
+main {
+    position: relative;
+    margin: 10rem auto;
+    max-width: 40rem;
+    width: 100%;
+}
+
+#flowers-top-left {
+    z-index: 0;
+    position: absolute;
+    top: -4.2rem;
+    left: -4.7rem;
+    width: 15rem;
+}
+
+#flowers-bottom-right {
+    z-index: 0;
+    position: absolute;
+    bottom: -4.5rem;
+    right: -5.3rem;
+    width: 16rem;
+}
+
+.frame {
+    z-index: 1;
+    position: relative;
+    border: .4rem solid white;
+    padding: .4rem;
+
+    @media (max-width: 40em) {
+        border: none;
+        border-top: .4rem solid white;
+        border-bottom: .4rem solid white;
+        padding: .4rem 0;
+    }
+}
+
+form {
+    margin: 0;
+    min-height: 40rem;
+    background: white;
+
+    h1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 100%;
+
+        .top {
+            position: absolute;
+            top: -4.8rem;
+            left: 11rem;
+            height: 3.8rem;
+        }
+
+        .bottom {
+            margin: 1rem 2rem;
+            color: $light-green;
+            font-family: $proxima;
+            font-size: 3rem;
+            font-weight: 100;
+            text-align: right;
+        }
+    }
 }

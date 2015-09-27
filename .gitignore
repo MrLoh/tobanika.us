@@ -1,4 +1,4 @@
 .DS_Store
 node_modules
-.sass_cache
+.sass-cache
 *.psd

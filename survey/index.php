@@ -9,7 +9,19 @@
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>
-	<h1>Wer bist du und wenn ja, wie viele?</h1>
+	<main>
+		<img id="flowers-top-left" src="assets/svg/flowers-top-left.svg" alt="" />
+		<div class="frame">
+			<form class="" action="index.html" method="post">
+				<h1>
+					<img class="top" src="assets/svg/wer-bist-du.svg" alt="Wer bist du" />
+					<div class="bottom" >und wenn ja, wie viele?</div>
+				</h1>
+			</form>
+		</div>
+		<img id="flowers-bottom-right" src="assets/svg/flowers-bottom-right.svg" alt="" />
+	</main>
+
 
 	<script src="assets/js/survey.min.js"></script>
 </body>
