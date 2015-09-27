@@ -21,17 +21,18 @@
 					<div class="bottom" >und wenn ja, wie viele?</div>
 				</h1>
 				<p>
-					Es scheint, du hast eine Einladung zu unserer Hochzeit bekommen. Bitte hilf uns mit dem Ausfüllen des unten stehendem Formulars bei der Planung.
+					Es scheint, du hast eine Einladung zu unserer Hochzeit bekommen. Bitte hilf uns mit dem Ausfüllen dieses Formulars bei der Planung.
 				</p>
 				<p>
-					Wenn du noch Inspiration für deinen USA Urlaub suchst, <a href="http://urlaub.für.tobanika.us">klicke hier</a>, wir haben ein Paar Ideen für dich zusammen gestellt.
+					Wenn du noch Inspiration für deinen USA Urlaub suchst, <a href="http://urlaub.für.tobanika.us">klicke hier</a>. Wir haben ein Paar Ideen für dich zusammen gestellt.
 				</p>
-				<p>
-					<label for="name">Name:</label>
-					<input type="text" id="name" name="name">
+				<hr>
+				<p class="formfield textfield">
+					<input type="text" id="name" name="name" required placeholder="Tobanika &amp; Anibias Lohiams" class="filled">
+					<label for="name">Name</label>
 				</p>
-				<p>
-					<input type="radio" id="coming-yes" name="coming" value="yes">
+				<p id="coming" class="formfield">
+					<input type="radio" id="coming-yes" name="coming" value="yes" required>
 					<label for="coming-yes">Wir planen zu kommen.</label>
 					<br>
 					<input type="radio" id="coming-maybe" name="coming" value="maybe">
@@ -40,15 +41,17 @@
 					<input type="radio" id="coming-no" name="coming" value="no">
 					<label for="coming-no">Wir werden vermutlich nicht kommen können.</label>
 				</p>
-				<p class="if">
-					<label for="email">Unsere Kontakt-Email ist</label>:
-					<input type="email" id="email" name="email">
-					<br>
-					<label for="count">Wir sind insgesamt <input type="text" id="count" name="count"> Personen</label>
-					<br>
-			        <span class="instructions">Wenn du noch nicht genau weißt, zu wievielt ihr kommt, kannst du auch so etwas wie ‘1-2’ angeben.</span>
-				</p>
-				<p>
+				<div id="if-coming">
+					<p class="formfield textfield">
+						<input type="email" id="email" name="email" placeholder="us@tobanika.us" class="filled">
+						<label for="email">Kontakt-Email</label>
+					</p>
+					<p class="formfield textfield">
+						<input type="text" id="count" name="count" placeholder="2-3" class="filled">
+						<label for="count">Anzahl Personen</label>
+					</p>
+				</div>
+				<p class="submit">
 					<input type="submit" value="Abschicken">
 				</p>
 				<!-- verify that name and options are filled out and if one or two that also the other fields are filled out and that field 3 contains a number -->
@@ -56,6 +59,12 @@
 		</div>
 		<img id="flowers-bottom-right" src="assets/svg/flowers-bottom-right.svg" alt="" />
 	</main>
+	<footer>
+		<p>
+			Fragen? Schreib uns: <a href="mailto:us@tobanika.us">us@tobanika.us</a>
+		</p>
+	</footer>
+	<script src="assets/lib/jquery-2.1.4.min.js"></script>
 	<script src="assets/js/survey.min.js"></script>
 </body>
 </html>
