@@ -2,14 +2,14 @@ $background: #0E2132;
 $light-green: #bcb868;
 $dark-green: #8f8938;
 
-$adelle: "adelle-condensed", sans-serif;
-$proxima: "proxima-nova-alt-condensed", sans-serif;
+$adelle: "adelle-condensed", "Adelle Condensed", sans-serif;
+$proxima: "proxima-nova-alt-condensed", "Proxima Nova Condensed", sans-serif;
 
 html, body {
     background: $background;
     color: white;
     font-family: $proxima;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16pt;
     margin: 0;
     width: 100%;
@@ -45,7 +45,7 @@ main {
     border: .4rem solid white;
     padding: .4rem;
 
-    @media (max-width: 40em) {
+    @media (max-width: 40rem) {
         border: none;
         border-top: .4rem solid white;
         border-bottom: .4rem solid white;
@@ -55,8 +55,10 @@ main {
 
 form {
     margin: 0;
-    min-height: 40rem;
     background: white;
+    padding: 3rem;
+    padding-top: 5rem;
+    color: $background;
 
     h1 {
         position: absolute;
@@ -73,12 +75,54 @@ form {
         }
 
         .bottom {
-            margin: 1rem 2rem;
+            margin: 1rem 3rem;
             color: $light-green;
             font-family: $proxima;
             font-size: 3rem;
-            font-weight: 100;
+            font-weight: 300;
             text-align: right;
         }
+    }
+
+    p {
+        margin: 0 0 1rem 0;
+    }
+
+    a {
+        position: relative;
+        text-decoration: none;
+        color: inherit;
+        transition: color 0.1s;
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: 0;
+            bottom: .1em;
+            left: 0;
+            width: 100%;
+            height: .1em;
+            background: $light-green;
+            transition: color 0.1s;
+        }
+
+        &:hover, &:focus, &:active {
+            text-decoration: none;
+            color: $light-green;
+            &::before {
+                background: $background;
+                height: .05em;
+            }
+        }
+    }
+
+    input[type="text"], input[type="email"] {
+        background: none;
+        border: none;
+        font: inherit;
+        border-bottom: .05rem solid $background;
+    }
+
+    label {
+        cursor: pointer;
     }
 }
