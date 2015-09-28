@@ -40,7 +40,7 @@ $(document).ready(function(){
     function validate(){
         console.log("validating "+$(this).val());
         if ( $(this).prop("required") && $(this).val().length < 1 ){
-            if ( !$(this).hasClass("error") ){
+            if ( $(this).next("label").text().search("erforderlich") == -1 ){
                 $(this).next("label").append(" (erforderlich)");
             }
             $(this).addClass("error filled");
