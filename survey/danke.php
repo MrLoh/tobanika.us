@@ -27,6 +27,7 @@ if ( $valid ) {
 
 // compose confirmation text
 $text = "Hallo $name, <br><br>";
+$text_web = "";
 if ( $count == '1' ){
 	if ( $coming == "yes" ){
 		$text .= "super dass du planst zu kommen. Wir freuen uns auf dich! ";
@@ -34,7 +35,7 @@ if ( $count == '1' ){
 	if ( $coming == "maybe" ){
 		$text .= "super dass du gerne kommen willst. Wir würden uns sehr freuen, wenn du es einrichten kannst. ";
 	}
-	$text .= "An deine Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
+	$text_web = $text . "An deine Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
 } else {
 	if ( $coming == "yes" ){
 		$text .= "super dass ihr plant mit $count Personen zu kommen. Wir freuen uns auf euch! ";
@@ -42,9 +43,10 @@ if ( $count == '1' ){
 	if ( $coming == "maybe" ){
 		$text .= "super dass ihr gerne mit $count Personen kommen wollt. Wir würden uns sehr freuen, wenn ihr es einrichten könnt. ";
 	}
-	$text .= "An eure Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
+	$text_web = $text . "An eure Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
 }
 $text .= "<br><br>Liebe Grüße <br>Tobias & Anika";
+$text_web .= "<br><br>Liebe Grüße <br>Tobias & Anika";
 
 // send confirmation email
 if ( $valid && $saved && $coming != "no" ){
@@ -113,7 +115,7 @@ if ( $valid && $saved && $coming != "no" ){
 							if ( $coming == "no" ){
 								echo "Schade, dass du/ihr vermutlich nicht kommen könnt.";
 							} else {
-								echo $text;
+								echo $text_web;
 							}
 						}
 					}
