@@ -1,44 +1,57 @@
 <?php
+// get parameters
 function get($n){
 	return htmlspecialchars($_GET[$n]);
 }
-
 $name = get('name');
 $coming = get('coming');
 $email = get('email');
 $count = get('count');
 
-function val_t($text){
-	return strlen($text) > 2;
-}
-
-function val_r($coming){
-	return in_array($coming,  ['yes', 'maybe', 'no']);
-}
-
-function val_e($email){
-	return strlen($email) > 2 && preg_match('/[@]+/', $email);
-}
-
-function val_n($number){
-	return preg_match('/[0-9]+/', $number);
-}
-
-$valid = false;
-$saved = false;
-
 // validate
-if ( val_t($name) && val_r($coming) && ($coming == 'no' || (val_e($email) && val_n($count))) ) {
-	$valid = true;
+$name_valid = strlen($name) > 2;
+$coming_valid = in_array($coming,  ['yes', 'maybe', 'no']);
+$email_valid = strlen($email) > 2 && preg_match('/[@]+/', $email);
+$count_valid = preg_match('/[0-9]+/', $count);
+$valid = $name_valid && $coming_valid && ( $coming == "no" || ($email_valid && $count_valid) );
 
-	// write to csv
+// write to csv
+$saved = false;
+if ( $valid ) {
 	$fp = fopen('responses.csv', 'a');
-	if ( $fp && fputcsv($fp, [$name,$email,$coming,$count]) > 0 ){
+	if ( $fp && fputcsv($fp, [htmlspecialchars_decode($name),htmlspecialchars_decode($email),htmlspecialchars_decode($coming),htmlspecialchars_decode($count)]) > 0 ){
 		$saved = true;
 		fclose($fp);
 	}
 }
 
+// compose confirmation text
+$text = "Hallo $name, <br><br>";
+if ( $count == '1' ){
+	if ( $coming == "yes" ){
+		$text .= "super dass du planst zu kommen. Wir freuen uns auf dich! ";
+	}
+	if ( $coming == "maybe" ){
+		$text .= "super dass du gerne kommen willst. Wir würden uns sehr freuen, wenn du es einrichten kannst. ";
+	}
+	$text .= "An deine Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
+} else {
+	if ( $coming == "yes" ){
+		$text .= "super dass ihr plant mit $count Personen zu kommen. Wir freuen uns auf euch! ";
+	}
+	if ( $coming == "maybe" ){
+		$text .= "super dass ihr gerne mit $count Personen kommen wollt. Wir würden uns sehr freuen, wenn ihr es einrichten könnt. ";
+	}
+	$text .= "An eure Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
+}
+$text .= "<br><br>Liebe Grüße <br>Tobias & Anika";
+
+// send confirmation email
+if ( $valid && $saved && $coming != "no" ){
+	$mail_headers = "From: Tobias & Anika <us@tobanika.us>\r\nBcc: us@tobanika.us";
+	$subject = "Schön, dass du versuchst zu kommen";
+	mail($email, $subject, $text, $mail_headers);
+}
 ?>
 
 <!DOCTYPE html>
@@ -61,17 +74,50 @@ if ( val_t($name) && val_r($coming) && ($coming == 'no' || (val_e($email) && val
 			<div class="container">
 				<h1>
 					<img class="top" src="assets/svg/danke.svg" alt="danke" />
+					<div class="bottom">
+						<?php
+						if ( !$valid ){
+							echo 'aber das verstehen wir nicht';
+						} elseif ( !$saved ){
+							echo 'aber unser Server hatte ein Problem';
+						} else {
+							echo 'für deine Angaben';
+						}
+						?>
+					</div>
 				</h1>
 				<p>
-					Vielen dank für deine Rückmeldung.
-				</p>
-				<p>
-					valid: <?php if($valid){echo "true";}else{echo "false";}; ?><br>
-					saved: <?php if($saved){echo "true";}else{echo "false";}; ?><br>
-					name: <?php echo $name; ?><br>
-					coming: <?php echo $coming; ?><br>
-					email: <?php echo $email; ?><br>
-					count: <?php echo $count; ?><br>
+					<?php
+					// invalid notifications
+					if ( !$name_valid ){
+						echo "Dein Name ist doch nicht wirklich '$name', oder? ";
+					}
+					if ( !$coming_valid ){
+						echo 'Du hast uns garnicht gesagt, ob du kommst — aber darum geht es uns eigentlich. ';
+					}
+					if ( $coming != "no" ){
+						if ( !$email_valid ){
+							echo "Die angegebene Email '$email' sieht aber nicht wie eine normale Emailadddresse aus.";
+						}
+						if ( !$count_valid ){
+							echo "Wir haben keine Angabe zur Personsnzahl finden können, deine Angabe '$count' sollte zumindest eine Zahl enthalten.";
+						}
+					}
+					if ( !$valid ){
+						echo "</p>Bitte gehe <a href='index.php'>zurück</a> und korrigiere deine Angaben. Wenn du Fragen hast, schreibe uns an <a href='mailto:us@tobanika.us'>us@tobanika.us</a>.<p>";
+					} else {
+						if ( !$saved ){
+							echo "Leider haben wir irgendwo Mist gebaut und deine Angaben konnten nicht gespeichert werden. Schreibe uns doch bitte eine Email an <a href='mailto:us@tobanika.us'>us@tobanika.us</a> und lass uns wissen, dass etwas schief gegangen ist.";
+							mail("tobias.lohse@me.com", "Fehler in Tobanika Rückmeldung", "Speicherung fehlgeschlagen. Daten name: $name, email: $email, coming: $coming, count: $count");
+						} else {
+							if ( $coming == "no" ){
+								echo "Schade, dass du/ihr vermutlich nicht kommen könnt.";
+							} else {
+								echo $text;
+							}
+						}
+					}
+					?>
 				</p>
 			</div>
 		</div>
