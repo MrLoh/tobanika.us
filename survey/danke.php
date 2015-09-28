@@ -1,3 +1,46 @@
+<?php
+function get($n){
+	return htmlspecialchars($_GET[$n]);
+}
+
+$name = get('name');
+$coming = get('coming');
+$email = get('email');
+$count = get('count');
+
+function val_t($text){
+	return strlen($text) > 2;
+}
+
+function val_r($coming){
+	return in_array($coming,  ['yes', 'maybe', 'no']);
+}
+
+function val_e($email){
+	return strlen($email) > 2 && preg_match('/[@]+/', $email);
+}
+
+function val_n($number){
+	return preg_match('/[0-9]+/', $number);
+}
+
+$valid = false;
+$saved = false;
+
+// validate
+if ( val_t($name) && val_r($coming) && ($coming == 'no' || (val_e($email) && val_n($count))) ) {
+	$valid = true;
+
+	// write to csv
+	$fp = fopen('responses.csv', 'a');
+	if ( $fp && fputcsv($fp, [$name,$email,$coming,$count]) > 0 ){
+		$saved = true;
+		fclose($fp);
+	}
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -20,7 +63,15 @@
 					<img class="top" src="assets/svg/danke.svg" alt="danke" />
 				</h1>
 				<p>
-					Vielen dank für deine Rückmeldung. 
+					Vielen dank für deine Rückmeldung.
+				</p>
+				<p>
+					valid: <?php if($valid){echo "true";}else{echo "false";}; ?><br>
+					saved: <?php if($saved){echo "true";}else{echo "false";}; ?><br>
+					name: <?php echo $name; ?><br>
+					coming: <?php echo $coming; ?><br>
+					email: <?php echo $email; ?><br>
+					count: <?php echo $count; ?><br>
 				</p>
 			</div>
 		</div>
