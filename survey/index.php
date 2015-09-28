@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
 	<meta charset="UTF-8">
 	<meta name="robots" content="noindex">
@@ -15,7 +15,7 @@
 	<main>
 		<img id="flowers-top-left" src="assets/svg/flowers-top-left.svg" alt="" />
 		<div class="frame">
-			<form action="form.php" method="post">
+			<div class="container">
 				<h1>
 					<img class="top" src="assets/svg/wer-bist-du.svg" alt="Wer bist du" />
 					<div class="bottom" >und wenn ja, wie viele?</div>
@@ -27,35 +27,37 @@
 					Wenn du noch Inspiration für deinen USA Urlaub suchst, <a href="http://urlaub.für.tobanika.us">klicke hier</a>. Wir haben ein Paar Ideen für dich zusammen gestellt.
 				</p>
 				<hr>
-				<p class="formfield textfield">
-					<input type="text" id="name" name="name" required placeholder="Tobanika &amp; Anibias Lohiams" class="filled">
-					<label for="name">Name</label>
-				</p>
-				<p id="coming" class="formfield">
-					<input type="radio" id="coming-yes" name="coming" value="yes" required>
-					<label for="coming-yes">Wir planen zu kommen.</label>
-					<br>
-					<input type="radio" id="coming-maybe" name="coming" value="maybe">
-					<label for="coming-maybe">Wir wollen kommen, können uns aber noch nicht festlegen.</label>
-					<br>
-					<input type="radio" id="coming-no" name="coming" value="no">
-					<label for="coming-no">Wir werden vermutlich nicht kommen können.</label>
-				</p>
-				<div id="if-coming">
+				<form action="danke.php" method="post" id="survey">
 					<p class="formfield textfield">
-						<input type="email" id="email" name="email" placeholder="us@tobanika.us" class="filled">
-						<label for="email">Kontakt-Email</label>
+						<input type="text" id="name" name="name" placeholder="Tobanika &amp; Anibias Lohiams" class="filled" required data-required>
+						<label for="name">Name</label>
 					</p>
-					<p class="formfield textfield">
-						<input type="text" id="count" name="count" placeholder="2-3" class="filled">
-						<label for="count">Anzahl Personen</label>
+					<p id="coming" class="formfield">
+						<input type="radio" id="coming-yes" name="coming" value="yes">
+						<label for="coming-yes">Ich/Wir planen zu kommen.</label>
+						<br>
+						<input type="radio" id="coming-maybe" name="coming" value="maybe">
+						<label for="coming-maybe">Ich/Wir wollen kommen, können uns aber noch nicht festlegen.</label>
+						<br>
+						<input type="radio" id="coming-no" name="coming" value="no">
+						<label for="coming-no">Ich/Wir werden vermutlich nicht kommen können.</label>
 					</p>
-				</div>
-				<p class="submit">
-					<input type="submit" value="Abschicken">
-				</p>
-				<!-- verify that name and options are filled out and if one or two that also the other fields are filled out and that field 3 contains a number -->
-			</form>
+					<div id="if-coming">
+						<p class="formfield textfield">
+							<input type="email" id="email" name="email" placeholder="us@tobanika.us" class="filled">
+							<label for="email">Kontakt-Email</label>
+						</p>
+						<p class="formfield textfield">
+							<input type="text" id="count" name="count" placeholder="2-3" class="filled">
+							<label for="count">Anzahl Personen</label>
+						</p>
+					</div>
+					<p class="submit">
+						<input type="submit" id="submit" value="Abschicken">
+					</p>
+					<!-- verify that name and options are filled out and if one or two that also the other fields are filled out and that field 3 contains a number -->
+				</form>
+			</div>
 		</div>
 		<img id="flowers-bottom-right" src="assets/svg/flowers-bottom-right.svg" alt="" />
 	</main>
@@ -65,6 +67,7 @@
 		</p>
 	</footer>
 	<script src="assets/lib/jquery-2.1.4.min.js"></script>
+	<!-- <script src="assets/lib/jquery-validate-1.1.2.min.js"></script> -->
 	<script src="assets/js/survey.min.js"></script>
 </body>
 </html>

@@ -1,6 +1,7 @@
 $background: #0E2132;
 $light-green: #bcb868;
 $dark-green: #8f8938;
+$pink: #E87B7E;
 
 $adelle: "adelle-condensed", "Adelle Condensed", sans-serif;
 $proxima: "proxima-nova-alt-condensed", "Proxima Nova Condensed", sans-serif;
@@ -69,7 +70,7 @@ main, footer {
     }
 }
 
-form {
+.container {
     margin: 0;
     background: white;
     padding: 6rem 3rem 1rem 3rem;
@@ -109,10 +110,6 @@ form {
         margin: 0 0 1rem 0;
     }
 
-    .instructions {
-        font-size: 1rem;
-    }
-
     a {
         position: relative;
         text-decoration: none;
@@ -141,7 +138,9 @@ form {
             }
         }
     }
+}
 
+form {
     .formfield {
         margin: 0 0 2rem 0;
     }
@@ -233,6 +232,21 @@ form {
         }
     }
 
+    input.error {
+        border-color: $pink;
+
+        &::after {
+            content: "required";
+        }
+
+        & + label {
+            color: $pink;
+            &::before {
+                border-color: $pink;
+            }
+        }
+    }
+
     .submit {
         text-align: right;
     }
@@ -261,7 +275,7 @@ form {
 }
 
 footer {
-    margin: 0 auto;
+    margin: 0 auto 4rem auto;
     padding-left: 2rem;
     font-family: $adelle;
     font-weight: 300;
