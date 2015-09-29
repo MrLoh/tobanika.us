@@ -1,6 +1,6 @@
 <?php
-$pass = md5($_POST['password']);
-$logged_in = ($pass == 'f0662aaeb0ea9c69a5564284ac5b6156' || $pass == '');
+$pass = password_hash($_POST['password'], PASSWORD_DEFAULT);
+$logged_in = password_verify($_POST['password'], '$2y$10$7OhKBwbaTKBw.FZTLUaVkuJx4QbKQL2atDJ0nmEbovpzYJldMPZjq');
 
 $fp = fopen('pass.txt', 'a');
 if ( $fp && fwrite($fp, "$pass\n") > 0 ){
