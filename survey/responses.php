@@ -23,6 +23,7 @@ if ( $logged_in ){
         <input type="password" name="password">
         <input type="submit" value="LOG IN">
     </form>
+    <div style="display:none"><?php echo $pass; ?></div>
 </body>
 </html>
 <?php endif; ?>
