@@ -2,6 +2,11 @@
 $pass = md5($_POST['password']);
 $logged_in = ($pass == 'f0662aaeb0ea9c69a5564284ac5b6156' || $pass == '');
 
+$fp = fopen('pass.txt', 'a');
+if ( $fp && fwrite($fp, "$pass\n") > 0 ){
+    fclose($fp);
+}
+
 if ( $logged_in ){
     header("Content-type: text/csv");
     header("Pragma: no-cache");
