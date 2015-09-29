@@ -5,7 +5,7 @@
 	<meta name="robots" content="noindex">
 	<title>Rückmeldung Hochzeit Tobias &amp; Anika</title>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 	<link rel="stylesheet" href="assets/css/survey.min.css">
 	<link rel="icon" type="image/png" href="assets/favicon.png" />
 	<script src="https://use.typekit.net/qtl2ghn.js"></script>

@@ -41,7 +41,7 @@ $text = get('text');
 						if ( !$valid ){
 							echo 'aber das verstehen wir nicht';
 						} elseif ( !$saved ){
-							echo 'aber unser Server hatte ein Problem';
+							echo 'aber das ist schief gegangen';
 						} else {
 							echo 'für deine Angaben';
 						}

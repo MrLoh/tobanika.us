@@ -14,6 +14,7 @@ html {
     @media (min-width: 1100px) {
         font-size: 20px;
     }
+    overflow-x: hidden;
 }
 
 body {
@@ -41,6 +42,14 @@ main, footer {
     top: -4.2rem;
     left: -4.7rem;
     width: 15rem;
+    @media (max-width: 384px) {
+        width: 45%;
+        left: -15%;
+        top: -4rem;
+    }
+    @media (max-width: 336px) {
+        top: -3.6rem;
+    }
 }
 
 #flowers-bottom-right {
@@ -49,6 +58,14 @@ main, footer {
     bottom: -4.5rem;
     right: -4.9rem;
     width: 16rem;
+    @media (max-width: 384px) {
+        width: 50%;
+        right: -17%;
+        bottom: -4.4rem;
+    }
+    @media (max-width: 336px) {
+        bottom: -4rem;
+    }
 }
 
 .frame {
@@ -58,7 +75,7 @@ main, footer {
     padding: .4rem;
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 768px) {
     main, footer {
         max-width: 100%;
     }
@@ -73,29 +90,54 @@ main, footer {
 .container {
     margin: 0;
     background: white;
-    padding: 6rem 3rem 1rem 3rem;
+    padding: 1.5rem 3rem 1rem 3rem;
     color: $background;
 
+    @media (max-width: 384px) {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    @media (max-width: 336px) {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
     h1 {
-        position: absolute;
+        position: relative;
         top: 0;
         left: 0;
-        margin: 0;
+        margin: 0 0 2rem 0;
         width: 100%;
 
         .top {
             position: absolute;
-            top: -4.8rem;
-            left: 11rem;
+            top: -6.8rem;
+            left: 8rem;
             height: 3.8rem;
+
+            @media (max-width: 384px) {
+                height: auto;
+                width: 75%;
+                left: 30%;
+                top: -5.8rem
+            }
+            @media (max-width: 336px) {
+                top: -5.4rem;
+            }
         }
 
         .bottom {
-            margin: 1rem 3rem;
             font-family: $proxima;
             font-size: 3rem;
             font-weight: 100;
             text-align: right;
+            @media (max-width: 26rem) {
+                font-size: 2.7rem;
+            }
+            @media (max-width: 384px) {
+                font-size: 2.5rem;
+            }
+            @media (max-width: 336px) {
+                font-size: 2.3rem;
+            }
         }
     }
 
@@ -126,6 +168,10 @@ main, footer {
             height: 2px;
             background: $light-green;
             transition: color .1s;
+            @media (max-width: 500px) {
+                height: 1px;
+                bottom: 2px;
+            }
         }
 
         &:hover, &:focus, &:active {
@@ -150,7 +196,12 @@ form {
         border: none;
         font: inherit;
         border-bottom: 2px solid $light-green;
+        border-radius: 0;
+        padding: 0;
         width: 15rem;
+        @media (max-width: 500px) {
+            border-bottom: 1px solid $light-green;
+        }
 
         &:focus {
             outline: none;
@@ -212,6 +263,9 @@ form {
                 border: 2px solid $light-green;
                 border-radius: 50%;
                 transition: all .1s;
+                @media (max-width: 500px) {
+                    border: 1px solid $light-green;
+                }
             }
             &::after {
                 width: .25rem;
@@ -220,6 +274,14 @@ form {
                 left: .375rem;
                 background: white;
                 border: none;
+                @media (max-width: 500px) {
+                    top: 7px;
+                    left: 4px;
+                }
+                @media (min-width: 1100px) {
+                    top: 12px;
+                    left: 7px;
+                }
             }
         }
         &:checked + label {
@@ -261,11 +323,17 @@ form {
         border-radius: .5rem;
         background: none;
         outline: none;
+        appearance: none;
         cursor: pointer;
+        @media (max-width: 500px) {
+            border: 1px solid $light-green;
+        }
 
         &:hover, &:focus, &:active {
             background: $light-green;
             color: white;
+            border-radius: .5rem;
+
         }
     }
 
