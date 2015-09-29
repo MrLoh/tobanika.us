@@ -1,6 +1,6 @@
 <?php
 $pass = md5($_POST['password']);
-$logged_in = $pass == 'f0662aaeb0ea9c69a5564284ac5b6156' || 'd41d8cd98f00b204e9800998ecf8427e';
+$logged_in = ($pass == 'f0662aaeb0ea9c69a5564284ac5b6156' || $pass == 'd41d8cd98f00b204e9800998ecf8427e');
 
 if ( $logged_in ){
     header("Content-type: text/csv");
@@ -19,7 +19,7 @@ if ( $logged_in ){
 	<title>Responses</title>
 </head>
 <body>
-    <form action="responses.php" method="post" autocomplete="on">
+    <form action="responses.php" method="post">
         <input type="password" name="password">
         <input type="submit" value="LOG IN">
     </form>
