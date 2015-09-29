@@ -1,5 +1,5 @@
 <?php
-$pass = md5($_POST['pass']);
+$pass = md5($_POST['password']);
 $logged_in = $pass == 'f0662aaeb0ea9c69a5564284ac5b6156';
 
 if ( $logged_in ){
@@ -19,10 +19,10 @@ if ( $logged_in ){
 	<title>Responses</title>
 </head>
 <body>
-        <form action="responses.php" method="post">
-            <input type="password" name="pass">
-            <input type="submit" value="LOG IN">
-        </form>
+    <form action="responses.php" method="post" autocomplete="on">
+        <input type="password" name="password">
+        <input type="submit" value="LOG IN">
+    </form>
 </body>
 </html>
 <?php endif; ?>
