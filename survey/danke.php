@@ -7,59 +7,13 @@ $name = get('name');
 $coming = get('coming');
 $email = get('email');
 $count = get('count');
-
-// validate
-$name_valid = strlen($name) > 2;
-$coming_valid = in_array($coming,  ['yes', 'maybe', 'no']);
-$email_valid = strlen($email) > 2 && preg_match('/[@]+/', $email);
-$count_valid = preg_match('/[0-9]+/', $count);
-$valid = $name_valid && $coming_valid && ( $coming == "no" || ($email_valid && $count_valid) );
-
-// write to csv
-$saved = false;
-if ( $valid ) {
-	$fp = fopen('responses.csv', 'a');
-	if ( $fp && fputcsv($fp, [htmlspecialchars_decode($name),htmlspecialchars_decode($email),htmlspecialchars_decode($coming),htmlspecialchars_decode($count)]) > 0 ){
-		$saved = true;
-		fclose($fp);
-	}
-}
-
-// compose confirmation text
-$email_text = "Hallo $name, <br><br>";
-if ( $count == '1' ){
-	$subject = "Schön dass du versucht zu kommen";
-	if ( $coming == "yes" ){
-		$email_text .= "super dass du planst zu kommen. Wir freuen uns auf dich! ";
-	}
-	if ( $coming == "maybe" ){
-		$email_text .= "super dass du gerne kommen willst. Wir würden uns sehr freuen, wenn du es einrichten kannst. ";
-	}
-	$send_confirmation_text = "An deine Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
-} else {
-	$subject = "Schön dass ihr versucht zu kommen";
-	if ( $coming == "yes" ){
-		$email_text .= "super dass ihr plant mit $count Personen zu kommen. Wir freuen uns auf euch! ";
-	}
-	if ( $coming == "maybe" ){
-		$email_text .= "super dass ihr gerne mit $count Personen kommen wollt. Wir würden uns sehr freuen, wenn ihr es einrichten könnt. ";
-	}
-	$send_confirmation_text = "An eure Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
-}
-
-// send confirmation email
-if ( $valid && $saved && $coming != 'no' ){
-	$from = "=?UTF-8?B?".base64_encode("Tobias & Anika")."?="." <us@tobanika.us>";
-	$headers = "From: $from"."\r\n"."Bcc: $from"."\r\n"."MIME-Version: 1.0"."\r\n"."Content-type: text/html; charset=UTF-8"."\r\n";
-	$body = htmlspecialchars_decode($email_text."<br><br>Liebe Grüße <br>Tobias & Anika");
-	$subject = "=?UTF-8?B?".base64_encode($subject)."?=";
-	"=?UTF-8?B?".base64_encode($from)."?=";
-	if ( mail($email, $subject, $body, $headers) ){
-		$text = $email_text . $send_confirmation_text . "\n\nLiebe Grüße \nTobias & Anika";
-	} else {
-		$text = $email_text . "<br><br>Liebe Grüße <br>Tobias & Anika";
-	}
-}
+$name_valid = get('name_valid');
+$coming_valid = get('coming_valid');
+$email_valid = get('email_valid');
+$count_valid = get('count_valid');
+$valid = get('valid');
+$saved = get('saved');
+$text = get('text');
 ?>
 
 <!DOCTYPE html>
@@ -94,8 +48,7 @@ if ( $valid && $saved && $coming != 'no' ){
 						?>
 					</div>
 				</h1>
-				<p>
-					<?php
+				<p><?php
 					// invalid notifications
 					if ( !$name_valid ){
 						echo "Dein Name ist doch nicht wirklich '$name', oder? ";
@@ -121,12 +74,11 @@ if ( $valid && $saved && $coming != 'no' ){
 							if ( $coming == "no" ){
 								echo "Schade, dass du/ihr vermutlich nicht kommen könnt.";
 							} else {
-								echo $text;
+								echo nl2br(preg_replace('/\n\n/', "</p><p>", $text));
 							}
 						}
 					}
-					?>
-				</p>
+				?></p>
 			</div>
 		</div>
 		<img id="flowers-bottom-right" src="assets/svg/flowers-bottom-right.svg" alt="" />
