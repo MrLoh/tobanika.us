@@ -58,17 +58,17 @@ $text = get('text');
 					}
 					if ( $coming != "no" ){
 						if ( !$email_valid ){
-							echo "Die angegebene Email '$email' sieht aber nicht wie eine normale Emailadddresse aus.";
+							echo "Die angegebene Email '$email' sieht aber nicht wie eine normale Emailadddresse aus. ";
 						}
 						if ( !$count_valid ){
-							echo "Wir haben keine Angabe zur Personsnzahl finden können, deine Angabe '$count' sollte zumindest eine Zahl enthalten.";
+							echo "Wir haben keine Angabe zur Personsnzahl finden können, deine Angabe '$count' sollte zumindest eine Zahl enthalten. ";
 						}
 					}
 					if ( !$valid ){
-						echo "</p>Bitte gehe <a href='index.php'>zurück</a> und korrigiere deine Angaben. Wenn du Fragen hast, schreibe uns an <a href='mailto:us@tobanika.us'>us@tobanika.us</a>.<p>";
+						echo "</p><p>Bitte gehe <a href='index.php'>zurück</a> und korrigiere deine Angaben. Wenn du Fragen hast, schreibe uns an <a href='mailto:us@tobanika.us'>us@tobanika.us</a>.";
 					} else {
 						if ( !$saved ){
-							echo "Leider haben wir irgendwo Mist gebaut und deine Angaben konnten nicht gespeichert werden. Schreibe uns doch bitte eine Email an <a href='mailto:us@tobanika.us'>us@tobanika.us</a> und lass uns wissen, dass etwas schief gegangen ist.";
+							echo "Leider haben wir irgendwo Mist gebaut und deine Angaben konnten nicht gespeichert werden. Schreibe uns doch bitte eine Email an <a href='mailto:us@tobanika.us'>us@tobanika.us</a> und lass uns wissen, dass etwas schief gegangen ist. ";
 							mail("tobias.lohse@me.com", "Fehler in Tobanika Rückmeldung", "Speicherung fehlgeschlagen. Daten name: $name, email: $email, coming: $coming, count: $count");
 						} else {
 							if ( $coming == "no" ){
