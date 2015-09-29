@@ -57,7 +57,7 @@ if ( $valid && $saved && $coming != 'no' ){
 	if ( mail($email, $subject, $body, $headers) ){
 		$text = $email_text . $send_confirmation_text . "\n\nLiebe Grüße \nTobias & Anika";
 	} else {
-		$text = $email_text . "\n\nLiebe Grüße \nTobias & Anika";
+		$text = $email_text . "<br><br>Liebe Grüße <br>Tobias & Anika";
 	}
 }
 ?>
