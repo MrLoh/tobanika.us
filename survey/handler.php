@@ -1,7 +1,7 @@
 <?php
 // get parameters
 function get($n){
-	return htmlspecialchars($_POST[$n]);
+	return $_POST[$n];
 }
 $name = get('name');
 $coming = get('coming');
