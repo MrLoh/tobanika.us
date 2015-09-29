@@ -26,33 +26,39 @@ if ( $valid ) {
 }
 
 // compose confirmation text
-$text = "Hallo $name, <br><br>";
-$text_web = "";
+$email_text = "Hallo $name, \n\n";
 if ( $count == '1' ){
+	$subject = "Schön dass du versucht zu kommen";
 	if ( $coming == "yes" ){
-		$text .= "super dass du planst zu kommen. Wir freuen uns auf dich! ";
+		$email_text .= "super dass du planst zu kommen. Wir freuen uns auf dich! ";
 	}
 	if ( $coming == "maybe" ){
-		$text .= "super dass du gerne kommen willst. Wir würden uns sehr freuen, wenn du es einrichten kannst. ";
+		$email_text .= "super dass du gerne kommen willst. Wir würden uns sehr freuen, wenn du es einrichten kannst. ";
 	}
-	$text_web = $text . "An deine Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
+	$send_confirmation_text = "An deine Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
 } else {
+	$subject = "Schön dass ihr versucht zu kommen";
 	if ( $coming == "yes" ){
-		$text .= "super dass ihr plant mit $count Personen zu kommen. Wir freuen uns auf euch! ";
+		$email_text .= "super dass ihr plant mit $count Personen zu kommen. Wir freuen uns auf euch! ";
 	}
 	if ( $coming == "maybe" ){
-		$text .= "super dass ihr gerne mit $count Personen kommen wollt. Wir würden uns sehr freuen, wenn ihr es einrichten könnt. ";
+		$email_text .= "super dass ihr gerne mit $count Personen kommen wollt. Wir würden uns sehr freuen, wenn ihr es einrichten könnt. ";
 	}
-	$text_web = $text . "An eure Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
+	$send_confirmation_text = "An eure Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
 }
-$text .= "<br><br>Liebe Grüße <br>Tobias & Anika";
-$text_web .= "<br><br>Liebe Grüße <br>Tobias & Anika";
 
 // send confirmation email
-if ( $valid && $saved && $coming != "no" ){
-	$mail_headers = "From: Tobias & Anika <us@tobanika.us>\r\nBcc: us@tobanika.us";
-	$subject = "Schön, dass du versuchst zu kommen";
-	mail($email, $subject, $text, $mail_headers);
+if ( $valid && $saved && $coming != 'no' ){
+	$from = "=?UTF-8?B?".base64_encode("Tobias & Anika")."?="." <us@tobanika.us>";
+	$headers = "From: $from"."\r\n"."Bcc: $from"."\r\n"."Content-type: text/html; charset=UTF-8"."\r\n";
+	$body = htmlspecialchars_decode($email_text."\n\nLiebe Grüße \nTobias & Anika");
+	$subject = "=?UTF-8?B?".base64_encode($subject)."?=";
+	"=?UTF-8?B?".base64_encode($from)."?=";
+	if ( mail($email, $subject, $body, $headers) ){
+		$text = $email_text . $send_confirmation_text . "\n\nLiebe Grüße \nTobias & Anika";
+	} else {
+		$text = $email_text . "\n\nLiebe Grüße \nTobias & Anika";
+	}
 }
 ?>
 
@@ -115,7 +121,7 @@ if ( $valid && $saved && $coming != "no" ){
 							if ( $coming == "no" ){
 								echo "Schade, dass du/ihr vermutlich nicht kommen könnt.";
 							} else {
-								echo $text_web;
+								echo nl2br($text);
 							}
 						}
 					}
