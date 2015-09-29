@@ -50,15 +50,17 @@ if ( $count == '1' ){
 // send confirmation email
 if ( $valid && $saved && $coming != 'no' ){
 	$from = "=?UTF-8?B?".base64_encode("Tobias & Anika")."?="." <us@tobanika.us>";
-	$headers = "From: $from"."\r\n"."Bcc: $from"."\r\n"."MIME-Version: 1.0"."\r\n"."Content-type: text/html; charset=UTF-8"."\r\n";
+	$headers = "From: $from"."\r\n"."MIME-Version: 1.0"."\r\n"."Content-type: text/html; charset=UTF-8"."\r\n";
 	$body = htmlspecialchars_decode(nl2br($email_text)."<br><br>Liebe Grüße <br>Tobias & Anika");
 	$subject = "=?UTF-8?B?".base64_encode($subject)."?=";
 	"=?UTF-8?B?".base64_encode($from)."?=";
-	if ( mail($email, $subject, $body, $headers) ){
+	$mail_success = mail($email, $subject, $body, $headers);
+	if ( $mail_success ){
 		$text = $email_text . $send_confirmation_text . "\n\nLiebe Grüße \nTobias & Anika";
 	} else {
 		$text = $email_text . "\n\nLiebe Grüße \nTobias & Anika";
 	}
+	mail('us@tobanika.us', 'New Wedding Survey Input', "name: $name \r\nemail: $email \r\ncoming: $coming \r\ncount: $count \r\nconfirmation mail sent? ".var_export($mail_success, true));
 }
 // redirect to repsonse page
 header('HTTP/1.1 303 See Other');
