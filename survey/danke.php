@@ -26,7 +26,7 @@ if ( $valid ) {
 }
 
 // compose confirmation text
-$email_text = "Hallo $name, \n\n";
+$email_text = "Hallo $name, <br><br>";
 if ( $count == '1' ){
 	$subject = "Schön dass du versucht zu kommen";
 	if ( $coming == "yes" ){
@@ -50,8 +50,8 @@ if ( $count == '1' ){
 // send confirmation email
 if ( $valid && $saved && $coming != 'no' ){
 	$from = "=?UTF-8?B?".base64_encode("Tobias & Anika")."?="." <us@tobanika.us>";
-	$headers = "From: $from"."\r\n"."Bcc: $from"."\r\n"."Content-type: text/html; charset=UTF-8"."\r\n";
-	$body = htmlspecialchars_decode($email_text."\n\nLiebe Grüße \nTobias & Anika");
+	$headers = "From: $from"."\r\n"."Bcc: $from"."\r\n"."MIME-Version: 1.0"."\r\n"."Content-type: text/html; charset=UTF-8"."\r\n";
+	$body = htmlspecialchars_decode($email_text."<br><br>Liebe Grüße <br>Tobias & Anika");
 	$subject = "=?UTF-8?B?".base64_encode($subject)."?=";
 	"=?UTF-8?B?".base64_encode($from)."?=";
 	if ( mail($email, $subject, $body, $headers) ){
@@ -121,7 +121,7 @@ if ( $valid && $saved && $coming != 'no' ){
 							if ( $coming == "no" ){
 								echo "Schade, dass du/ihr vermutlich nicht kommen könnt.";
 							} else {
-								echo nl2br($text);
+								echo $text;
 							}
 						}
 					}
