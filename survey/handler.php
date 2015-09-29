@@ -28,20 +28,22 @@ if ( $valid ) {
 // compose confirmation text
 $email_text = "Hallo $name, \n\n";
 if ( $count == '1' ){
-	$subject = "Schön dass du versucht zu kommen";
 	if ( $coming == "yes" ){
+		$subject = "Schön dass du planst zu kommen";
 		$email_text .= "super dass du planst zu kommen. Wir freuen uns auf dich! ";
 	}
 	if ( $coming == "maybe" ){
+		$subject = "Schön dass du versuchst zu kommen";
 		$email_text .= "super dass du gerne kommen willst. Wir würden uns sehr freuen, wenn du es einrichten kannst. ";
 	}
 	$send_confirmation_text = "An deine Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
 } else {
-	$subject = "Schön dass ihr versucht zu kommen";
 	if ( $coming == "yes" ){
+		$subject = "Schön dass ihr plant zu kommen";
 		$email_text .= "super dass ihr plant mit $count Personen zu kommen. Wir freuen uns auf euch! ";
 	}
 	if ( $coming == "maybe" ){
+		$subject = "Schön dass ihr versucht zu kommen";
 		$email_text .= "super dass ihr gerne mit $count Personen kommen wollt. Wir würden uns sehr freuen, wenn ihr es einrichten könnt. ";
 	}
 	$send_confirmation_text = "An eure Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
