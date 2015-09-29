@@ -1,11 +1,5 @@
 <?php
-$pass = password_hash($_POST['password'], PASSWORD_DEFAULT);
-$logged_in = password_verify($_POST['password'], '$2y$10$7OhKBwbaTKBw.FZTLUaVkuJx4QbKQL2atDJ0nmEbovpzYJldMPZjq') || password_verify($_POST['password'], '$2y$10$iGkj48K5I6tq6ZE9ZdrD0.si8If/0zaINebi15FDET342HhXZobCm');
-
-$fp = fopen('pass.txt', 'a');
-if ( $fp && fwrite($fp, "$pass\n") > 0 ){
-    fclose($fp);
-}
+$logged_in = password_verify($_POST['password'], '$2y$10$RXuRTSAcKmcKPokJXySjnuQqQQjXmm7jjGSYQQEPn9Ts.WIxoOZDO');
 
 if ( $logged_in ){
     header("Content-type: text/csv");
@@ -28,7 +22,6 @@ if ( $logged_in ){
         <input type="password" name="password">
         <input type="submit" value="LOG IN">
     </form>
-    <div style="display:none"><?php echo $pass; ?></div>
 </body>
 </html>
 <?php endif; ?>
