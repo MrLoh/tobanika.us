@@ -29,6 +29,11 @@ body {
     overflow-x: hidden;
 }
 
+h1 {
+    font-weight: 800;
+    font-size: 3rem;
+    padding: 0 2rem;
+}
 
 .cards {
     text-align: center;
@@ -37,11 +42,11 @@ body {
 .card {
     display: inline-block;
     position: relative;
-    margin: 1rem;
+    margin: 0 1rem;
     padding: 0;
     width: 18rem;
     height: 17rem;
-    overflow: scroll;
+    overflow: hidden;
     text-align: left;
 
     figure {
@@ -62,7 +67,8 @@ body {
             padding: 1rem 0.5rem 0 0.5rem;
             color: white;
             font-family: $adelle;
-            font-size: 1.8rem;
+            font-weight: 300;
+            font-size: 1.75rem;
             text-shadow: 0 0 1rem black;
             text-transform: uppercase;
             background: linear-gradient(rgba(black, 0), rgba(black, 0.4));
@@ -72,5 +78,6 @@ body {
     p {
         padding: 0 0.5rem;
         font-size: 1rem;
+        position: absolute;
     }
 }

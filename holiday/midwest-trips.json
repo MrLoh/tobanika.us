@@ -1,0 +1,62 @@
+var trips = [
+    {
+        name: "tour-chicago",
+        title: "Around the Lake",
+        caption: "Take a road trip around Lake Michigan, starting in Chicago..."
+    },
+    {
+        name: "taliesin",
+        title: "Frank Lloyd Wright",
+        caption: "...and Frank Lloyd Wright’s house and architecture school, Taliesin, in Wisconsin along the way."
+    },
+    {
+        name: "doorcounty",
+        title: "Door County",
+        caption: "Visit Door County in Wisconsin."
+    },
+    {
+        name: "picturedrocks",
+        title: "Pictured Rocks",
+        caption: "...and be sure to visit the Pictured Rocks National Lakeshore in Michigan..."
+    },
+    {
+        name: "cabin",
+        title: "Camping",
+        caption: "Rent a cabin or go camping in Michigan, along the coast of Lake Michigan..."
+    },
+    {
+        name: "blueberries",
+        title: "Blueberries",
+        caption: "...early September is still Michigan blueberry season..."
+    },
+    {
+        name: "dunes",
+        title: "Sand Dunes",
+        caption: "...and be sure to explore the dunes along the beaches."
+    },
+    {
+        name: "lighthouse",
+        title: "Grand Haven",
+        caption: "Visit Grand Haven Lighthouse."
+    },
+    {
+        name: "appalachian",
+        title: "Appalachian Trail",
+        caption: "Hike the Appalachian Trail."
+    },
+    {
+        name: "boston",
+        title: "Boston",
+        caption: "Start in Boston and take a road trip along the New England coast to Washington, DC."
+    },
+    {
+        name: "newyork",
+        title: "New York",
+        caption: "Fly to NYC."
+    },
+    {
+        name: "dc",
+        title: "Washington DC",
+        caption: "Visit the Nation's Capital."
+    },
+];
