@@ -1,3 +1,76 @@
-html, body {
-    background: #0E2132;
+$background: #0E2132;
+$light-green: #bcb868;
+$dark-green: #8f8938;
+$pink: #E87B7E;
+
+$adelle: "adelle-condensed", "Adelle Condensed", sans-serif;
+$proxima: "proxima-nova-alt-condensed", "Proxima Nova Condensed", sans-serif;
+
+html {
+    font-size: 16px;
+    @media (max-width: 500px) {
+        font-size: 12px;
+    }
+    @media (min-width: 1100px) {
+        font-size: 20px;
+    }
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+    // background: $background;
+    // color: white;
+    font-family: $proxima;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.cards {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    padding: 0;
+    width: 18rem;
+    height: 17rem;
+    overflow: scroll;
+    text-align: left;
+
+    figure {
+        position: relative;
+        margin: 0;
+        width: 100%;
+        height: 12rem;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+
+        figcaption {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 1rem 0.5rem 0 0.5rem;
+            color: white;
+            font-family: $adelle;
+            font-size: 1.8rem;
+            text-shadow: 0 0 1rem black;
+            text-transform: uppercase;
+            background: linear-gradient(rgba(black, 0), rgba(black, 0.4));
+        }
+    }
+
+    p {
+        padding: 0 0.5rem;
+        font-size: 1rem;
+    }
 }
