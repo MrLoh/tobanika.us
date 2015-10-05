@@ -21,7 +21,7 @@ function populateList(id, items){
         var figure = make('figure', {});
         card.appendChild(figure);
 
-        figure.appendChild(make('img', {'alt': items[i].name, 'src': 'assets/img/holiday/'+items[i].name+'.jpg'}));
+        figure.appendChild(make('img', {'alt': items[i].name, 'src': 'assets/img/holiday/'+items[i].name+'.jpg', 'width': '360', 'height': '240'}));
         figure.appendChild(make('figcaption', {'text': items[i].title}));
 
         card.appendChild(make('p', {'text': items[i].caption}));
