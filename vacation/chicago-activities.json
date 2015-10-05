@@ -111,8 +111,8 @@ var activities = [
     },
     {
         name: "bahai",
-        title: "Baha’i Temple",
-        caption: "...and don’t miss the Baha’i temple while in Evanston; it’s one of eight in the world."
+        title: "Baha'i Temple",
+        caption: "...and don’t miss the Baha’i temple while in Evanston; it’s one of only eight in the world."
     },
     {
         name: "apples",
