@@ -1,38 +1,33 @@
 var activities = [
     {
-        name: "pizza",
-        title: 'Deep Dish Pizza',
-        caption: "Share a deep dish pizza and wash it down with a local IPA."
+        name: "hancock",
+        title: "Enjoy the View",
+        caption: "Enjoy a cocktail at the Hancock Building while watching the sun set behind the skyline."
     },
     {
-        name: "chipotle",
-        title: "Tex-Mex",
-        caption: "Get some organic Tex-Mex fast food at Chipotle."
+        name: "bean",
+        title: "The Bean",
+        caption: "Visit the heart of the Windy City and lose yourself in the Bean..."
     },
     {
-        name: "brewery",
-        title: "Brewery Tour",
-        caption: "Hit up any one of Chicago’s local breweries or distilleries for a tour and tasting."
+        name: "milenniumpark",
+        title: "Milennium Park",
+        caption: "...then listen to a free classical concert in front of the skyline at Millennium Park."
     },
     {
-        name: "northwestern",
-        title: "Northwestern",
-        caption: "Visit the Northwestern campus, where Tobias and Anika met, and ..."
+        name: "loop",
+        title: "Ride the Loop",
+        caption: "Enjoy great views of Chicago from the ‘L’, which stands for elevated train."
     },
     {
-        name: "lakefill",
-        title: "Skyline",
-        caption: "... walk along the lakeshore for a beautiful view of the Chicago skyline."
+        name: "river",
+        title: "Architecture Tour",
+        caption: "Walk along the Chicago River and explore some of the world’s greatest architecture..."
     },
     {
-        name: "bahai",
-        title: "Baha'i Temple",
-        caption: "See the Baha'i Temple in Evanston."
-    },
-    {
-        name: "football",
-        title: "Football Game",
-        caption: "Tailgate with some Northwestern fans and see a Northwestern Football Game."
+        name: "kayak",
+        title: "Kayak the River",
+        caption: "...and enjoy the perspectives from the middle of the river during a kayak tour at night."
     },
     {
         name: "baseball",
@@ -40,19 +35,44 @@ var activities = [
         caption: "Watch a White Sox baseball game and eat a soft pretzel with cheese or a hotdog."
     },
     {
+        name: "artinstitute",
+        title: "Art Institute",
+        caption: "See the Chagall windows, American Realists, and miniature rooms at the Art Institute."
+    },
+    {
+        name: "fieldmuseum",
+        title: "Museums",
+        caption: "Visit the Field Museum, Planetarium, Shedd Aquarium, or Museum of Science and Industry."
+    },
+    {
+        name: "zoo",
+        title: "Free Zoo",
+        caption: "Check out the free Lincoln Park Zoo to meet some polar bears and lions."
+    },
+    {
+        name: "chipotle",
+        title: "Tex-Mex",
+        caption: "Regarding culinary experiences, don’t miss organic Tex-Mex fast food at Chipotle..."
+    },
+    {
+        name: "pizza",
+        title: "Deep Dish Pizza",
+        caption: "...and share a deep dish pizza and wash it down with a local India Pale Ale."
+    },
+    {
+        name: "brewery",
+        title: "Brewery Tour",
+        caption: "You should also hit up one of the local breweries or distilleries for a tour and tasting."
+    },
+    {
         name: "hipster",
         title: "Hipster Areas",
-        caption: "Shop at vintage stores in the hipster neighborhoods like Wicker Park and Andersonville."
+        caption: "Shop at vintage stores or check out the nightlife in the various hipster neighborhoods."
     },
     {
         name: "arcade",
         title: "Arcade Bar",
-        caption: "."
-    },
-    {
-        name: "broadway",
-        title: "Broadway",
-        caption: "Check out Broadway in Chicago or see the Chicago Symphony Orchestra perform."
+        caption: "Play some arcade games and have a drink at one of Chicago’s many barcades."
     },
     {
         name: "ferris",
@@ -60,24 +80,14 @@ var activities = [
         caption: "Watch Ferris Bueller’s Day Off, then visit all the famous sights."
     },
     {
-        name: "zoo",
-        title: "Free Zoo",
-        caption: "Check out the free Lincoln Park Zoo."
-    },
-    {
-        name: "artinstitute",
-        title: "Art Institute",
-        caption: "Visit the Art Institute of Chicago."
-    },
-    {
-        name: "fieldmuseum",
-        title: "Museums",
-        caption: "Visit the Field Museum, Adler Planetarium, Shedd Aquarium, or Museum of Science and Industry."
+        name: "broadway",
+        title: "Broadway",
+        caption: "Check out Broadway in Chicago or see the Chicago Symphony Orchestra perform."
     },
     {
         name: "gardens",
         title: "Botanic Gardens",
-        caption: "Start the day at the Chicago Botanic Gardens..."
+        caption: "Spend a relaxing day in the Chicago Botanic Gardens to the north..."
     },
     {
         name: "ravinia",
@@ -85,38 +95,28 @@ var activities = [
         caption: "...and end it with an outdoor concert in the park at Ravinia."
     },
     {
+        name: "northwestern",
+        title: "Northwestern",
+        caption: "Visit the beautiful Northwestern campus, where Tobias and Anika met..."
+    },
+    {
+        name: "lakefill",
+        title: "View of the Skyline",
+        caption: "...and walk along the lakeshore for one of the best views of the Chicago skyline..."
+    },
+    {
+        name: "football",
+        title: "Football Game",
+        caption: "...then tailgate with some Northwestern football fans and cheer for the Wild Cats..."
+    },
+    {
+        name: "bahai",
+        title: "Baha’i Temple",
+        caption: "...and don’t miss the Baha’i temple while in Evanston; it’s one of eight in the world."
+    },
+    {
         name: "apples",
         title: "Apple-Picking",
-        caption: "Head up north for a day of Apple picking and enjoing fresh cider and cider doughnuts."
-    },
-    {
-        name: "loop",
-        title: "Ride the Loop",
-        caption: "Take the 'L' around downtown."
-    },
-    {
-        name: "river",
-        title: "Architecture Tour",
-        caption: "Walk along the Chicago River and explore the city’s architecture."
-    },
-    {
-        name: "bean",
-        title: "The Bean",
-        caption: "Lose yourself in the Bean ..."
-    },
-    {
-        name: "milenniumpark",
-        title: "Milennium Park",
-        caption: "... and then listen to a free classical concert at Millennium Park."
-    },
-    {
-        name: "kayak",
-        title: "Kayak the River",
-        caption: "Take a kayak tour at night along the Chicago River."
-    },
-    {
-        name: "hancock",
-        title: "Enjoy the View",
-        caption: "Enjoy a cocktail at the Hancock Building while watching the sun set behind the skyline."
+        caption: "Head up north for a day of apple-picking and enjoy fresh cider and cider doughnuts."
     },
 ];

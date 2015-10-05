@@ -7,56 +7,56 @@ var trips = [
     {
         name: "taliesin",
         title: "Frank Lloyd Wright",
-        caption: "...and Frank Lloyd Wright’s house and architecture school, Taliesin, in Wisconsin along the way."
+        caption: "...head north to Taliesin, Frank Lloyd Wright’s house and architecture school in Wisconsin..."
     },
     {
         name: "doorcounty",
         title: "Door County",
-        caption: "Visit Door County in Wisconsin."
+        caption: "...visit Door County and spend some relaxing time in nature..."
     },
     {
         name: "picturedrocks",
         title: "Pictured Rocks",
-        caption: "...and be sure to visit the Pictured Rocks National Lakeshore in Michigan..."
-    },
-    {
-        name: "cabin",
-        title: "Camping",
-        caption: "Rent a cabin or go camping in Michigan, along the coast of Lake Michigan..."
-    },
-    {
-        name: "blueberries",
-        title: "Blueberries",
-        caption: "...early September is still Michigan blueberry season..."
-    },
-    {
-        name: "dunes",
-        title: "Sand Dunes",
-        caption: "...and be sure to explore the dunes along the beaches."
+        caption: "...pass into Michigan at the north end of the lake and visit this amazing national park..."
     },
     {
         name: "lighthouse",
         title: "Grand Haven",
-        caption: "Visit Grand Haven Lighthouse."
+        caption: "...stop by one of Michigan's many amazing beaches and lighthouses in Grand Haven..."
+    },
+    {
+        name: "dunes",
+        title: "Sand Dunes",
+        caption: "...be sure to explore some of the vast dunes along the beaches in Michigan..."
+    },
+    {
+        name: "blueberries",
+        title: "Blueberries",
+        caption: "...early September is still blueberry season, so don't miss a pick-your-own blueberry stand..."
+    },
+    {
+        name: "cabin",
+        title: "Camping",
+        caption: "...or spend less time in the car and rent a cabin or camp along the Michigan lakeshore."
     },
     {
         name: "appalachian",
         title: "Appalachian Trail",
-        caption: "Hike the Appalachian Trail."
+        caption: "For the nature lovers: hike the Appalachian Trail and visit one of the US's great national."
     },
     {
         name: "boston",
         title: "Boston",
-        caption: "Start in Boston and take a road trip along the New England coast to Washington, DC."
+        caption: "Take a road trip along the New England coast. Starting with some historic sites in Boston..."
     },
     {
         name: "newyork",
         title: "New York",
-        caption: "Fly to NYC."
+        caption: "...you can't miss the Big Apple, make sure you have a few days for the world's busiest city..."
     },
     {
         name: "dc",
         title: "Washington DC",
-        caption: "Visit the Nation's Capital."
+        caption: "...end the trip at the nation's capital with it's countless memorials and museums."
     },
 ];
