@@ -11,7 +11,7 @@ var activities = [
     },
     {
         name: "milenniumpark",
-        title: "Milennium Park",
+        title: "Millennium Park",
         caption: "...then listen to a free classical concert in front of the skyline at Millennium Park."
     },
     {
