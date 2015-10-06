@@ -36,7 +36,8 @@ if ( $count == '1' ){
 		$subject = "Schön, dass du versuchst zu kommen";
 		$email_text .= "Super, dass du gerne kommen willst. Wir würden uns sehr freuen, wenn du es einrichten kannst. ";
 	}
-	$send_confirmation_text = "An deine Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
+	$email_text .= "Wir werden dir Anfang 2016 noch eine offizielle Einladung mit genaueren Informationen zukommen lassen. ";
+	$send_confirmation_text = "\n\nAn deine Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. Bitte stelle sicher, dass diese nicht im Spam Ordner gelandet ist, damit wir dich in Zukunft erreichen können. ";
 } else {
 	if ( $coming == "yes" ){
 		$subject = "Schön, dass ihr plant zu kommen";
@@ -46,7 +47,8 @@ if ( $count == '1' ){
 		$subject = "Schön, dass ihr versucht zu kommen";
 		$email_text .= "Super, dass ihr gerne mit $count Personen kommen wollt. Wir würden uns sehr freuen, wenn ihr es einrichten könnt. ";
 	}
-	$send_confirmation_text = "An eure Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. ";
+	$email_text .= "Wir werden euch Anfang 2016 noch eine offizielle Einladung mit genaueren Informationen zukommen lassen. ";
+	$send_confirmation_text = "\n\nAn eure Kontaktemail '$email' haben wir eine Bestätigungsemail geschickt. Bitte stellt sicher, dass diese nicht im Spam Ordner gelandet ist, damit wir euch in Zukunft erreichen können. ";
 }
 
 // send confirmation email

@@ -21,10 +21,10 @@
 					<div class="bottom" >und wenn ja, wie viele?</div>
 				</h1>
 				<p>
-					Es scheint, du hast eine Einladung zu unserer Hochzeit bekommen. Bitte hilf uns mit dem Ausfüllen dieses Formulars bei der Planung.
+					Es scheint, du hast eine Einladung zu unserer Hochzeit am 9. September in <a href="https://www.google.com/maps/place/The+Kenilworth+Club/@42.086695,-87.7153011,17z/data=!3m1!4b1!4m2!3m1!1s0x880fc522be26db83:0xd5d7eaea4f050e4c">Libertyville  bei Chicago</a> bekommen. Bitte hilf uns mit dem Ausfüllen dieses Formulars bei der Planung.
 				</p>
 				<p>
-					Wenn du noch Inspiration für deinen USA Urlaub suchst, <a href="http://urlaub.für.tobanika.us">klicke hier</a>. Wir haben ein paar Ideen für dich zusammen gestellt.
+					Wenn du noch Inspiration für deinen USA Urlaub suchst, <a href="http://urlaub.für.tobanika.us">klicke hier</a>. Wir haben ein paar Ideen für dich zusammen gestellt. Außerdem empfehlen wir sobald wie möglich einen <a href="https://www.kayak.com/flights/BER,nearby-CHI,nearby/2016-09-03-flexible/2016-09-14-flexible">Flug</a> zu buchen.
 				</p>
 				<hr>
 				<form action="handler.php" method="post" id="survey">
