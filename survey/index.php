@@ -24,7 +24,7 @@
 					Es scheint, du hast eine Einladung zu unserer Hochzeit bekommen. Bitte hilf uns mit dem Ausfüllen dieses Formulars bei der Planung.
 				</p>
 				<p>
-					Wenn du noch Inspiration für deinen USA Urlaub suchst, <a href="http://urlaub.für.tobanika.us">klicke hier</a>. Wir haben ein Paar Ideen für dich zusammen gestellt.
+					Wenn du noch Inspiration für deinen USA Urlaub suchst, <a href="http://urlaub.für.tobanika.us">klicke hier</a>. Wir haben ein paar Ideen für dich zusammen gestellt.
 				</p>
 				<hr>
 				<form action="handler.php" method="post" id="survey">

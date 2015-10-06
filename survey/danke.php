@@ -14,6 +14,11 @@ $count_valid = get('count_valid');
 $valid = get('valid');
 $saved = get('saved');
 $text = get('text');
+if ( $valid && $saved ){
+	$top_img = "danke";
+} else {
+	$top_img = "ups";
+}
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +26,15 @@ $text = get('text');
 <head>
 	<meta charset="UTF-8">
 	<meta name="robots" content="noindex">
-	<title>Rückmeldung Hochzeit Tobias &amp; Anika</title>
+	<title>
+			<?php
+			if ( $valid && $saved ){
+				echo 'Danke für deine Rückmeldung';
+			} else {
+				echo 'Leider ist etwas schief gegangen';
+			}
+			?>
+		</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/survey.min.css">
@@ -35,13 +48,13 @@ $text = get('text');
 		<div class="frame">
 			<div class="container">
 				<h1>
-					<img class="top" src="assets/svg/danke.svg" alt="danke" />
+					<img class="top" src="assets/svg/<?php echo $top_img ?>.svg" alt="<?php echo $top_img ?>" />
 					<div class="bottom">
 						<?php
 						if ( !$valid ){
-							echo 'aber das verstehen wir nicht';
+							echo 'das verstehen wir nicht';
 						} elseif ( !$saved ){
-							echo 'aber das ist schief gegangen';
+							echo 'das ist schief gegangen';
 						} else {
 							echo 'für deine Angaben';
 						}
@@ -54,14 +67,14 @@ $text = get('text');
 						echo "Dein Name ist doch nicht wirklich '$name', oder? ";
 					}
 					if ( !$coming_valid ){
-						echo 'Du hast uns garnicht gesagt, ob du kommst — aber darum geht es uns eigentlich. ';
+						echo 'Du hast uns gar nicht gesagt, ob du kommst — aber darum geht es uns eigentlich. ';
 					}
 					if ( $coming != "no" ){
 						if ( !$email_valid ){
-							echo "Die angegebene Email '$email' sieht aber nicht wie eine normale Emailadddresse aus. ";
+							echo "Die angegebene Email '$email' sieht aber nicht wie eine normale Emailadresse aus. ";
 						}
 						if ( !$count_valid ){
-							echo "Wir haben keine Angabe zur Personsnzahl finden können, deine Angabe '$count' sollte zumindest eine Zahl enthalten. ";
+							echo "Wir haben keine Angabe zur Personenzahl finden können, deine Angabe '$count' sollte zumindest eine Zahl enthalten. ";
 						}
 					}
 					if ( !$valid ){
