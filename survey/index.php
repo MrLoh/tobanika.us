@@ -24,7 +24,7 @@
 					Es scheint, du hast eine Einladung zu unserer Hochzeit am 9. September in <a href="https://www.google.com/maps/place/Libertyville+Covenant+Church/@42.1547926,-87.9076787,11z/data=!4m2!3m1!1s0x880f94187533f679:0xc1f8bf5d91297ac">Libertyville  bei Chicago</a> bekommen. Bitte hilf uns mit dem Ausfüllen dieses Formulars bei der Planung.
 				</p>
 				<p>
-					Wenn du noch Inspiration für deinen USA Urlaub suchst, <a href="http://urlaub.für.tobanika.us">klicke hier</a>. Wir haben ein paar Ideen für dich zusammen gestellt. Außerdem empfehlen wir sobald wie möglich einen <a href="https://www.kayak.com/flights/BER,nearby-CHI,nearby/2016-09-03-flexible/2016-09-14-flexible">Flug</a> zu buchen.
+					Wenn du noch Inspiration für deinen USA Urlaub suchst, <a href="http://urlaub.für.tobanika.us">klicke hier</a>. Wir haben ein paar Ideen für dich zusammen gestellt. Außerdem empfehlen wir jetzt schon nach <a href="https://www.kayak.com/flights/BER,nearby-CHI,nearby/2016-09-03-flexible/2016-09-14-flexible">Flügen</a> zu suchen und bald zu buchen.
 				</p>
 				<hr>
 				<form action="handler.php" method="post" id="survey">
