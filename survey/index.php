@@ -12,6 +12,7 @@
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>
+	<?php include_once("assets/lib/analyticstracking.php") ?>
 	<main>
 		<img id="flowers-top-left" src="assets/svg/flowers-top-left.svg" alt="" />
 		<div class="frame">
