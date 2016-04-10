@@ -53,7 +53,7 @@ $title = $menu_items[$dir]
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 	<link rel="stylesheet" href="../assets/css/main.min.css">
-	<link rel="icon" type="image/png" href="../favicon2.png" />
+	<link rel="icon" type="image/png" href="../favicon.png" />
 
 	<script src="https://use.typekit.net/tho7pee.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
