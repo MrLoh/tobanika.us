@@ -49,11 +49,13 @@ nav {
 }
 
 main {
+	position: relative;
 	> * {
 		width: 100%;
 		max-width: 40rem;
 		margin: 0 auto;
-		padding: 0 2rem;
+		box-sizing: border-box;
+		padding: 0 1rem;
 		margin-bottom: 1rem;
 	}
 	h1 {
@@ -64,6 +66,7 @@ main {
 		border-top: 2px solid black;
 		border-bottom: 2px solid black;
 		margin-bottom: 4rem;
+		box-sizing: content-box;
 		img {
 			display: block;
 			margin: 0 auto;
