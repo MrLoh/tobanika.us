@@ -1,0 +1,81 @@
+@font-face {
+	font-family: 'Hswsc';
+	src: url('../svg/hswsc.woff') format('woff');
+}
+
+$brown: #c9c399;
+$green: #d0d97a;
+$mint: #badfbe;
+
+body {
+    font-family: "proxima-nova", "Proxima Nova", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+	margin: 2rem 0;
+	.lang-link a {
+		color: inherit;
+		text-decoration: none;
+		float: right;
+		margin-right: 1rem;
+		&:active, &:hover, &:focus {
+			color: $green;
+		}
+	}
+	ul {
+		list-style-type: none;
+		text-align: center;
+	}
+    li {
+        display: inline-block;
+        margin: 0 1rem;
+        text-transform: uppercase;
+        &.active {
+        	color: $green;
+        	font-weight: 900;
+        }
+        a {
+        	color: inherit;
+        	text-decoration: none;
+        	&:active, &:hover, &:focus {
+				color: $green;
+			}
+        }
+    }
+}
+
+main {
+	> * {
+		width: 100%;
+		max-width: 40rem;
+		margin: 0 auto;
+		padding: 0 2rem;
+		margin-bottom: 1rem;
+	}
+	h1 {
+		max-width: 100%;
+		padding: 0;
+		height: 4rem;
+		background: linear-gradient(to right, $green, $green 50%, $mint 50%, $mint);
+		border-top: 2px solid black;
+		border-bottom: 2px solid black;
+		margin-bottom: 4rem;
+		img {
+			display: block;
+			margin: 0 auto;
+			height: inherit;
+		}
+	}
+	h2 {
+		font-family: 'Hswsc';
+		font-size: 2rem;
+		color: $green;
+		&:nth-of-type(2n+1){
+			color: $mint;
+		}
+	}
+}

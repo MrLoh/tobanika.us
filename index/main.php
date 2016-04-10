@@ -40,6 +40,8 @@ if($lang=="de"){
 	);
 }
 
+$title = $menu_items[$dir]
+
 // END PHP
 ?>
 
@@ -56,7 +58,7 @@ if($lang=="de"){
 	<script src="https://use.typekit.net/tho7pee.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-	<title>Tobias &#x2764; Anika | <?php echo(ucwords($dir)) ?></title>
+	<title>Tobias &#x2764; Anika | <?php echo($title) ?></title>
 </head>
 <body>
 	<?php include_once("../assets/lib/analyticstracking.php"); ?>
@@ -69,8 +71,8 @@ if($lang=="de"){
 			</div>
 		    <ul>
 				<?php foreach($menu_items as $item=>$name){
-					if($item==$dir) echo("<li class='active'><a href='../$item'>$name</a></li>");
-					else echo("<li><a href='../$item'>$name</a></li>");
+					if($item==$dir) echo("<li class='active'>"); else echo("<li>");
+					echo("<a href='../$item?lang=$lang'>$name</a></li>");
 				} ?>
 		    </ul>
 		</nav>
