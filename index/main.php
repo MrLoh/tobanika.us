@@ -24,7 +24,6 @@ $lang = get("lang", $lang);
 
 if($lang=="de"){
 	$menu_items = array(
-		"home"=>"Home",
 		"hotel"=>"Hotel",
 		"locations"=>"Locations",
 		"program"=>"Programm",
@@ -32,7 +31,6 @@ if($lang=="de"){
 	);
 } else {
 	$menu_items = array(
-		"home"=>"Home",
 		"hotel"=>"Hotel",
 		"locations"=>"Locations",
 		"program"=>"Program",
@@ -63,13 +61,17 @@ $title = $menu_items[$dir]
 <body>
 	<?php include_once("../assets/lib/analyticstracking.php"); ?>
 	<header>
-		<nav>
+		<nav id="menu">
 			<div class="lang-link">
 				<a href="<?php if($lang=="de") echo("?lang=en"); else echo("?lang=de") ?>">
 					<?php if($lang=="de") echo("EN"); else echo("DE"); ?>
 				</a>
 			</div>
+			<div class="mobile-menu">
+				<a id="menu-button" href=""><?php if($lang=="de") echo("MENÜ"); else echo("MENU"); ?></a>
+			</div>
 		    <ul>
+		    	<li><a href="../<?php echo("?lang=$lang"); ?>">Home</a></li>
 				<?php foreach($menu_items as $item=>$name){
 					if($item==$dir) echo("<li class='active'>"); else echo("<li>");
 					echo("<a href='../$item?lang=$lang'>$name</a></li>");
@@ -77,11 +79,32 @@ $title = $menu_items[$dir]
 		    </ul>
 		</nav>
 	</header>
-    <main>
+    <main id="main" style="left: 0">
 		<h1>
 			<img src="<?php echo("title_$lang.svg"); ?>" alt="<?php echo($title) ?>" />
 		</h1>
 		<?php echo(markdownify("$lang.md")); ?>
     </main>
 </body>
+<script type="text/javascript">
+var menu_button = document.getElementById('menu-button');
+var menu = document.getElementById('menu');
+var main = document.getElementById('main');
+menu_button.onclick = function(e){
+	e.preventDefault();
+	if (menu.classList.contains('active')) {
+		menu.classList.remove('active');
+		main.style.left = "0";
+	} else {
+		menu.classList.add('active');
+		main.style.left = "10rem";
+	}
+}
+main.onclick = function(){
+	if (menu.classList.contains('active')) {
+		menu.classList.remove('active');
+		main.style.left = "0";
+	}
+}
+</script>
 </html>

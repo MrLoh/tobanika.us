@@ -9,10 +9,16 @@ $mint: #badfbe;
 
 body {
     font-family: "proxima-nova", "Proxima Nova", sans-serif;
-    font-size: 18px;
+    @media (max-width: 600px) {
+    	font-size: 15px;
+    }
+    @media (max-width: 400px) {
+    	font-size: 12px;
+    }
     font-weight: 400;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 nav {
@@ -20,18 +26,56 @@ nav {
 	.lang-link a {
 		display: block;
 		position: absolute;
-		top: 10.5rem;
+		top: 6.6rem;
 		right: 1rem;
 		z-index: 10;
 		color: inherit;
 		text-decoration: none;
+		border: 2px solid black;
+		border-radius: 50%;
+		font-size: 12px;
+		font-weight: 700;
+		padding: 6px 6px 5px 5px;
+		background: $green;
+		transition: right 0.5s;
 		&:active, &:hover, &:focus {
-			color: $green;
+			background: black;
+			color: $mint;
+		}
+		@media (max-width: 600px) {
+			border-width: 1.5px;
+			top: 5.65rem;
+			font-size: 8px;
+			font-weight: 600;
+			padding: 4px 4px 3.5px 3.5px;
+		}
+		@media (max-width: 400px) {
+			top: 1rem;
+			padding: 0;
+			font-size: 12px;
+			font-weight: 400;
+			background: none;
+			border: none;
+		}
+	}
+	.mobile-menu {
+		display: none;
+		transition: left 0.5s;
+		@media (max-width: 400px) {
+			display: block;
+			position: absolute;
+			top: 1rem;
+			left: 1rem;
+			a {
+				text-decoration: none;
+				color: inherit;
+			}
 		}
 	}
 	ul {
 		list-style-type: none;
 		text-align: center;
+		padding: 0;
 	}
     li {
         display: inline-block;
@@ -49,10 +93,53 @@ nav {
 			}
         }
     }
+    @media (max-width: 400px) {
+    	ul {
+    		transition: left 0.5s;
+    		display: block;
+    		position: fixed;
+    		top: 0;
+    		left: -11rem;
+    		text-align: right;
+    		height: 100%;
+    		width: 10rem;
+    		margin: 0;
+    		padding: 1.2rem 2rem 0 0;
+    		box-sizing: border-box;
+    		background: $brown;
+    		border-right: 1.5px solid black;
+    		z-index: 20;
+    	}
+    	li {
+    		display: block;
+    		padding: 1.5rem 0;
+    		&.active {
+    			color: white;
+    			font-weight: 400;
+    		}
+    	}
+    	&.active {
+			.mobile-menu {
+				left: 11rem;
+			}
+			.lang-link a {
+				right: -9rem;
+			}
+			ul {
+				left: 0;
+			}
+    	}
+    }
 }
 
 main {
 	position: relative;
+	width: 100%;
+	overflow-x: hidden;
+	transition: left 0.5s;
+	@media (max-width: 400px) {
+		margin-top: 3rem;
+	}
 	> * {
 		width: 100%;
 		max-width: 40rem;
@@ -68,20 +155,36 @@ main {
 		background: linear-gradient(to right, $green, $green 50%, $mint 50%, $mint);
 		border-top: 2px solid black;
 		border-bottom: 2px solid black;
-		margin-bottom: 4rem;
+		margin-bottom: 2rem;
 		box-sizing: content-box;
 		img {
 			display: block;
 			margin: 0 auto;
 			height: inherit;
+			@media (max-width: 700px) and (min-width: 600px) {
+				padding-right: 3rem;
+			}
+		}
+		@media (max-width: 600px) {
+			height: 2rem;
+			border-top-width: 1.5px;
+			border-bottom-width: 1.5px;
 		}
 	}
 	h2 {
 		font-family: 'Hswsc';
-		font-size: 2rem;
+		font-size: 2em;
 		color: $green;
 		&:nth-of-type(2n+1){
 			color: $mint;
+		}
+	}
+	a {
+		color: inherit;
+		text-decoration: none;
+		border-bottom: 2px solid $green;
+		&:hover, &:focus, &:active {
+			color: $green;
 		}
 	}
 }
