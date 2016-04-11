@@ -99,7 +99,7 @@ nav {
     		display: block;
     		position: fixed;
     		top: 0;
-    		left: -11rem;
+    		left: -10rem;
     		text-align: right;
     		height: 100%;
     		width: 10rem;
@@ -136,9 +136,13 @@ main {
 	position: relative;
 	width: 100%;
 	overflow-x: hidden;
-	transition: left 0.5s;
 	@media (max-width: 400px) {
 		margin-top: 3rem;
+		transition: left 0.5s;
+		left: 0;
+		&.active-menu {
+			left: 10rem;
+		}
 	}
 	> * {
 		width: 100%;

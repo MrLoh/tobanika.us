@@ -79,7 +79,7 @@ $title = $menu_items[$dir]
 		    </ul>
 		</nav>
 	</header>
-    <main id="main" style="left: 0">
+    <main id="main">
 		<h1>
 			<img src="<?php echo("title_$lang.svg"); ?>" alt="<?php echo($title) ?>" />
 		</h1>
@@ -94,16 +94,16 @@ menu_button.onclick = function(e){
 	e.preventDefault();
 	if (menu.classList.contains('active')) {
 		menu.classList.remove('active');
-		main.style.left = "0";
+		main.classList.remove('active-menu');
 	} else {
 		menu.classList.add('active');
-		main.style.left = "10rem";
+		main.classList.add('active-menu');
 	}
 }
 main.onclick = function(){
 	if (menu.classList.contains('active')) {
 		menu.classList.remove('active');
-		main.style.left = "0";
+		main.classList.remove('active-menu');
 	}
 }
 </script>
