@@ -36,12 +36,12 @@ if($lang=="de"){
 </head>
 <body>
 	<div class="home-frame">
-		<img src="leaf_diamond.svg" alt="" class="leaf left"/>
-		<img src="leaf_diamond.svg" alt="" class="leaf right"/>
-		<img src="triangle_le.svg" alt="" class="triangle top left"/>
-		<img src="triangle_ri.svg" alt="" class="triangle top right"/>
-		<img src="triangle_bottom_le.svg" alt="" class="triangle bottom left"/>
-		<img src="triangle_bottom_ri.svg" alt="" class="triangle bottom right"/>
+		<img src="assets/svg/leaf_diamond.svg" alt="" class="leaf left"/>
+		<img src="assets/svg/leaf_diamond.svg" alt="" class="leaf right"/>
+		<img src="assets/svg/triangle_le.svg" alt="" class="triangle top left"/>
+		<img src="assets/svg/triangle_ri.svg" alt="" class="triangle top right"/>
+		<img src="assets/svg/triangle_bottom_le.svg" alt="" class="triangle bottom left"/>
+		<img src="assets/svg/triangle_bottom_ri.svg" alt="" class="triangle bottom right"/>
 		<?php include_once("assets/lib/analyticstracking.php"); ?>
 		<div class="lang-link">
 			<a class="home" href="<?php if($lang=="de") echo("?lang=en"); else echo("?lang=de") ?>">
@@ -51,11 +51,11 @@ if($lang=="de"){
 	    <main id="main" class="home">
 			<div class="title">
 				<div class="container">
-					<img src="tobias_anika.svg" alt="" />
+					<img src="assets/svg/tobias_anika.svg" alt="" />
 				</div>
 			</div>
 			<div class="wedding-date">
-				<img src="<?php echo("date_$lang.svg"); ?>" alt="" />
+				<img src="<?php echo("assets/svg/date_$lang.svg"); ?>" alt="" />
 				<p>
 					<!-- <?php if($lang=="de") echo("9. September 2016"); else echo("September 9, 2016"); ?> -->
 				</p>
@@ -66,7 +66,7 @@ if($lang=="de"){
 				echo("<h1><a href='$item?lang=$lang'><img src='$item/title_$lang.svg' alt='$name' /></a></h1>");
 			} ?>
 	    </main>
-		<img src="us.svg" alt="" class="us-image"/>
+		<img src="assets/svg/us.svg" alt="" class="us-image"/>
 	</div>
 </body>
 </html>
