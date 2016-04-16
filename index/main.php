@@ -46,6 +46,24 @@ $title = $menu_items[$dir];
 		</h1>
 		<?php echo(markdownify("$lang.md")); ?>
     </main>
+	<footer>
+		<div class="content">
+			<ul class="nav left">
+		    	<li><a href="../<?php echo("?lang=$lang"); ?>">Home</a></li>
+				<?php foreach($menu_items as $item=>$name){
+					if($item==$dir) echo("<li class='active'>"); else echo("<li>");
+					echo("<a href='../$item?lang=$lang'>$name</a></li>");
+				} ?>
+		    </ul>
+			<div class="right">
+				<p class="contact">
+					ask us anything: <br>
+					<a href="mailto:us@tobanika.us">us@tobanika.us</a>
+				</p>
+			</div>
+		</div>
+		<img class="skyline" src="../chicago.svg" alt="" />
+	</footer>
 </body>
 
 <script type="text/javascript">

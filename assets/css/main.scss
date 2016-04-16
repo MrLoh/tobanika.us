@@ -2,6 +2,11 @@ $brown: #c9c399;
 $green: #d0d97a;
 $mint: #badfbe;
 
+html {
+	margin: 0;
+	padding: 0;
+}
+
 body {
     font-family: "proxima-nova", "Proxima Nova", sans-serif;
     @media (max-width: 600px) {
@@ -11,9 +16,11 @@ body {
     	font-size: 12px;
     }
     font-weight: 400;
+    line-height: 1.6em;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    min-height: 100%;
 }
 
 .lang-link a {
@@ -28,13 +35,22 @@ body {
 	border-radius: 50%;
 	font-size: 12px;
 	font-weight: 700;
+	line-height: 1.2;
 	padding: 6px 6px 5px 5px;
 	background: $green;
 	transition: right 0.5s;
+
 	&:active, &:hover, &:focus {
 		background: black;
 		color: $mint;
 	}
+
+	&.home {
+		top: 1rem;
+		background: none;
+		border: none;
+	}
+
 	@media (max-width: 600px) {
 		border-width: 1.5px;
 		top: 5.65rem;
@@ -42,9 +58,10 @@ body {
 		font-weight: 600;
 		padding: 4px 4px 3.5px 3.5px;
 		&.home {
-			top: 4.1rem;
+			top: 1rem;
 		}
 	}
+
 	@media (max-width: 400px) {
 		top: 1rem;
 		padding: 0;
@@ -187,7 +204,7 @@ main {
 		max-width: 100%;
 		margin: 1.8rem 0;
 		padding: 0;
-		height: 9rem;
+		height: 10.5rem;
 		.container {
 			width: 1100%;
 			margin-left: -500%;
@@ -198,6 +215,9 @@ main {
 			margin: 0 auto;
 		}
 		@media (max-width: 600px) {
+			height: 6rem;
+		}
+		@media (max-width: 400px) {
 			height: 4.5rem;
 		}
 	}
@@ -205,7 +225,14 @@ main {
 		max-width: 100%;
 		margin: 0;
 		padding: 0;
-		padding-bottom: 1rem;
+		border-bottom: 2px solid black;
+
+		img {
+			margin-top: -2.5rem;
+			margin-bottom: -0.5rem;
+			height: 7rem;
+		}
+
 		p {
 			margin: 0;
 			font-size: 4.5em;
@@ -215,11 +242,19 @@ main {
 		@media (max-width: 600px) {
 			margin-top: -1rem;
 			margin-bottom: -2rem;
+			border-width: 1px;
+			img {
+				margin-top: -1rem;
+				height: 4rem;
+			}
 			p {
 				font-size: 2.4em;
 			}
 		}
 		@media (max-width: 400px) {
+			img {
+				height: 3rem;
+			}
 			p {
 				font-size: 2.8em;
 			}
@@ -262,5 +297,115 @@ main {
 	}
 	img {
 		width: 100%;
+	}
+}
+
+.home-frame {
+	position: relative;
+	max-width: 750px;
+	margin: 0 auto;
+	border: 2px solid black;
+	margin: 1.5rem auto;
+
+	.leaf {
+		width: 81px;
+		position: absolute;
+		top: 6.2rem;
+		z-index: 10;
+		&.left { left: -41px; }
+		&.right { right: -41px; }
+	}
+
+	.triangle {
+		width: 37px;
+		position: absolute;
+		z-index: 10;
+		&.top { top: -2.5px; }
+		&.left { left: -12px; }
+		&.right { right: -12px; }
+		&.bottom { bottom: -2.7px; }
+	}
+
+	.us-image {
+		width: 10rem;
+		margin: 3rem 0 -1rem 6rem
+	}
+
+	@media (max-width: 830px) {
+		max-width: 100%;
+		border-left: none;
+		border-right: none;
+		.leaf {
+			display: none;
+		}
+	}
+	@media (max-width: 600px) {
+		border-width: 1px;
+
+		.triangle {
+			width: 19px;
+			&.top { top: -1.25px; }
+			&.bottom { bottom: -1.3px; }
+			&.left { left: -6.5px; }
+			&.right { right: -6.5px; }
+		}
+
+		.us-image {
+			width: 5rem;
+			margin: 2rem 0 -0.6rem 4rem
+		}
+	}
+}
+
+a {
+	color: inherit;
+}
+
+footer {
+	width: 100%;
+	margin: 4rem 0 0 0;
+	background: $brown;
+	border-top: 2px solid black;
+	position: relative;
+	bottom: 0;
+	font-size: 0.8em;
+	font-weight: 600;
+	line-height: 1.6em;
+
+	.content {
+		padding: 1rem;
+		margin: 0 auto;
+		max-width: 40rem;
+		@media (min-width: 1300px) {
+			max-width: 100%;
+			padding: 1rem 3rem;
+		}
+	}
+	ul.nav {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		a {
+			text-decoration: none;
+		}
+		.active a, a:active, a:hover, a:focus {
+			text-decoration: underline;
+		}
+	}
+
+	.left {
+		float: left;
+		text-align: left;
+	}
+
+	.right {
+		float: right;
+		text-align: right;
+	}
+
+	.skyline {
+		margin: 0.5rem -1% -1rem -1%;
+		bottom: 0;
+		width: 102%;
 	}
 }
