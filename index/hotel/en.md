@@ -17,8 +17,11 @@ This hotel is convenient for getting home from the Reception and for attending t
 The hotel block has two different types of rooms:
 
 Rooms with 1 King bed + 1 Sofa bed - max 3 adults (or 2 adults and 2 children)
+![](king_room_floorplan.png)
 
 Rooms with 2 Queen beds - max 4 adults (or 4 adults and 1 crib)
+
+![](queen_room_floorplan.png)
 
 Both room styles cost $121 per night (including tax).  (Divided by 4 people, that’s just $30(€27) per night per person!)
 
@@ -32,29 +35,23 @@ We will be hiring a shuttle for hotel guests without access to a car for the day
 
 If you are coming directly to the hotel from O’Hare Airport, the hotel manager has given us some helpful information regarding taxis from the airport to the hotel:  
 
-When you arrive at the airport and have collected your bags, you can call American Taxi (847-255-9600) who will give you the taxi number to look for and instructions on where to pick it up. 
- 
+When you arrive at the airport and have collected your bags, you can call American Taxi (847-255-9600) who will give you the taxi number to look for and instructions on where to pick it up.
+
 American Taxi has a flat fee from the airport to our hotel of about $34 dollars for a regular taxi (vans are about $10 more).   This is important to note because there is a difference between Chicago city taxis and Chicago suburban taxis.  American Taxi is a suburban taxi service, while city taxis include a huge surcharge to deliver to suburban addresses (ending up at $80 for the same trip to the hotel).  The first taxi you see at the airport, picking up passengers at the curb, is probably a city taxi so it is best to order a taxi ahead of time via phone.
- 
+
 Here are the pickup locations of American Taxi at each terminal for O'Hare Airport:
 Terminal 1: Pick Up Door G on baggage claim level, middle lane of traffic. <br>
 Terminal 2: Pick Up Door E on baggage claim level, middle lane of traffic. <br>
 Terminal 3: Pick Up Door G on baggage claim level, middle lane of traffic. <br>
 Terminal 5 - International Terminal: Pick Up Door E on baggage claim level, first lane of traffic.
- 
-For airline/terminal information, go to:
-http://www.flychicago.com/OHare/EN/MyFlight/Airline/Airline-Information
+
+For airline/terminal information, check [this link](http://www.flychicago.com/OHare/EN/MyFlight/Airline/Airline-Information)
 
 ## Accommodation for Chicago Vacation
 
-Note that this hotel, and most of the Wedding Weekend Program events, are in the Chicago Suburbs.  If you are planning a vacation to see Chicago in the days before or after the wedding weekend, this hotel is not ideal for staying longer than the weekend because it is not in the city.  We recommend seeking out other hotels in the city or use AirBnB to find someplace to stay closer to the city’s attractions. 
+Note that this hotel, and most of the Wedding Weekend Program events, are in the Chicago Suburbs. If you are planning a vacation to see Chicago in the days before or after the wedding weekend, this hotel is not ideal for staying longer than the weekend because it is not in the city. We recommend seeking out other hotels in the city or use AirBnB to find someplace to stay closer to the city’s attractions.
 
-We would recommend finding an AirBnB or hotel somewhere along the Red Line between Addison and the Loop (if you want to be closer to more tourist attractions), or along the Blue Line between Logan Square and Wicker Park (if you want to stay in a more hip neighborhood).
-
-I'd say if they're gonna be tourists in Chicago they probably want to stay in Lincoln park area - easy to get to the metra for like botanic gardens and things, downtown, over to wicker park and Logan square, etc. to me that's really the most 'central' park of town. 
-If encourage them to not stay in Lakeview - so busy and not a ton of fun stuff other than wrigley field but you don't want to stay near it
-blue line is fun but not as much if you're tourist ing
-
+We would recommend finding an AirBnB or hotel somewhere in the Lincoln Park neighborhood, which gives access to the Metra train and the L for getting everywhere from downtown to the beautiful northern suburbs to the hip neighborhoods on the west side of town.
 
 ## Ceremony and Reception Locations
 
