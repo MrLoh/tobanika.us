@@ -62,7 +62,7 @@ $title = $menu_items[$dir];
 				</p>
 			</div>
 		</div>
-		<img class="skyline" src="../chicago.svg" alt="" />
+		<img class="skyline" src="../assets/svg/chicago.svg" alt="" />
 	</footer>
 </body>
 
