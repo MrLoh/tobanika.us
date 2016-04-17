@@ -3,17 +3,17 @@ include_once("config.php");
 
 if($lang=="de"){
 	$menu_blobs = array(
-		"program"=>"Programm",
+		"program"=>"Program",
 		"hotel"=>"Hotel",
 		"travel"=>"Locations",
 		"registry"=>"Wunschliste",
 	);
 } else {
 	$menu_blobs = array(
-		"program"=>"To learn about events happening during the Wedding Weekend.",
-		"hotel"=>"To learn about accommodations for the Wedding Weekend.",
-		"travel"=>"For out-of-town guests planning a longer stay in Chicago.",
-		"registry"=>"To see what our home could look like someday.",
+		"program"=>"Learn about events happening during the Wedding Weekend:",
+		"hotel"=>"If you need accommodations for the Wedding Weekend:",
+		"travel"=>"For out-of-town guests planning a longer stay in Chicago:",
+		"registry"=>"See what our home could look like someday:",
 	);
 }
 
