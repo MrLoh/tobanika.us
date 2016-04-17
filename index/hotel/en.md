@@ -11,7 +11,7 @@ Room reservations can be made via phone at +1 866-381-4803 (be sure to specify t
 
 Reservations must be made on or before Thursday, August 18th, as this is the Cutoff Date for the Room Block.
 
-## Why
+## Why:
 This hotel is convenient for getting home from the Reception and for attending the Weekend Program events we have planned for the wedding weekend, so we highly encourage all guests in need of a hotel to stay here.  At the minimum for the evening of Friday, September 9th, because at midnight after the Reception we will have an After Party in the hotel lounge.
 
 The hotel block has two different types of rooms:
@@ -49,11 +49,4 @@ For airline/terminal information, check [this link](http://www.flychicago.com/OH
 
 ## Accommodation for Chicago Vacation
 
-Note that this hotel, and most of the Wedding Weekend Program events, are in the Chicago Suburbs. If you are planning a vacation to see Chicago in the days before or after the wedding weekend, this hotel is not ideal for staying longer than the weekend because it is not in the city. We recommend seeking out other hotels in the city or use AirBnB to find someplace to stay closer to the city’s attractions.
-
-We would recommend finding an AirBnB or hotel somewhere in the Lincoln Park neighborhood, which gives access to the Metra train and the L for getting everywhere from downtown to the beautiful northern suburbs to the hip neighborhoods on the west side of town.
-
-## Ceremony and Reception Locations
-
-Ceremony: Libertyville Covenant Church located at 250 S St Marys Rd, Libertyville, IL 60048
-Reception: Kenilworth Club located at 410 Kenilworth Ave, Kenilworth, IL 60043
+Note that this hotel, and most of the Wedding Weekend Program events, are in the Chicago Suburbs. If you are planning a vacation to see Chicago in the days before or after the wedding weekend, this hotel is not ideal for staying longer than the weekend because it is not in the city. Visit the [Travel](../travel) page for more information and suggestions on this topic.
