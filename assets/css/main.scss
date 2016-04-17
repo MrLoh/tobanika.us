@@ -5,15 +5,13 @@ $mint: #badfbe;
 html {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 body {
     font-family: "proxima-nova", "Proxima Nova", sans-serif;
     @media (max-width: 600px) {
     	font-size: 14px;
-    }
-    @media (max-width: 400px) {
-    	font-size: 12px;
     }
     font-weight: 400;
     line-height: 1.6em;
@@ -65,7 +63,8 @@ body {
 	@media (max-width: 400px) {
 		top: 1rem;
 		padding: 0;
-		font-size: 12px;
+		font-size: 14px;
+		line-height: 1.6;
 		font-weight: 400;
 		background: none;
 		border: none;
@@ -202,7 +201,7 @@ main {
 	}
 	.title {
 		max-width: 100%;
-		margin: 1.8rem 0;
+		margin: -2px 0 1rem 0;
 		padding: 0;
 		height: 10.5rem;
 		.container {
@@ -216,6 +215,7 @@ main {
 		}
 		@media (max-width: 600px) {
 			height: 6rem;
+			margin-top: -1px;
 		}
 		@media (max-width: 400px) {
 			height: 4.5rem;
@@ -228,8 +228,7 @@ main {
 		border-bottom: 2px solid black;
 
 		img {
-			margin-top: -2.5rem;
-			margin-bottom: 0.5rem;
+			margin-top: -2rem;
 			height: 7rem;
 		}
 
@@ -239,9 +238,12 @@ main {
 			font-weight: 100;
 			text-align: center;
 		}
+		@media (max-width: 830px) {
+			padding-bottom: 0.5rem;
+		}
 		@media (max-width: 600px) {
-			margin-top: -1rem;
-			margin-bottom: -2rem;
+			margin-top: -0.5rem;
+			margin-bottom: -1rem;
 			border-width: 1px;
 			img {
 				margin-top: -1rem;
@@ -252,6 +254,7 @@ main {
 			}
 		}
 		@media (max-width: 400px) {
+			margin-top: 0rem;
 			img {
 				height: 3rem;
 			}
@@ -270,7 +273,7 @@ main {
 			font-weight: 300;
 		}
 		@media (max-width: 400px) {
-			margin-top: 3rem;
+			// margin-top: 3rem;
 			padding: 0 1.5rem;
 			font-weight: 400;
 		}
@@ -295,6 +298,11 @@ main {
 			color: $green;
 		}
 	}
+	p img {
+		width: 80%;
+		margin: 0 10%;
+	}
+
 	img {
 		width: 100%;
 	}
@@ -310,7 +318,7 @@ main {
 	.leaf {
 		width: 81px;
 		position: absolute;
-		top: 6.05rem;
+		top: 5.85rem;
 		z-index: 10;
 		&.left { left: -41px; }
 		&.right { right: -41px; }
@@ -335,12 +343,24 @@ main {
 		max-width: 100%;
 		border-left: none;
 		border-right: none;
+
 		.leaf {
 			display: none;
+			&.left {
+				display: block;
+				left: 40%;
+				top: 14.9rem;
+			}
 		}
 	}
 	@media (max-width: 600px) {
 		border-width: 1px;
+
+		.leaf.left {
+			width: 40px;
+			left: 43%;
+			top: 9.2rem;
+		}
 
 		.triangle {
 			width: 19px;
@@ -353,6 +373,11 @@ main {
 		.us-image {
 			width: 5rem;
 			margin: 2rem 0 -0.6rem 4rem
+		}
+	}
+	@media (max-width: 400px) {
+		.leaf.left {
+			top: 7.1rem;
 		}
 	}
 }
@@ -404,7 +429,7 @@ footer {
 	}
 
 	.skyline {
-		margin: 0.5rem -1% -1rem -1%;
+		margin: 0.5rem -1% -0.5rem -1%;
 		bottom: 0;
 		width: 102%;
 	}

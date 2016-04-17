@@ -23,14 +23,14 @@ if($lang=="de"){
 	$menu_items = array(
 		"program"=>"Programm",
 		"hotel"=>"Hotel",
-		"locations"=>"Locations",
+		"travel"=>"Reiseinfos",
 		"registry"=>"Wunschliste",
 	);
 } else {
 	$menu_items = array(
 		"program"=>"Program",
 		"hotel"=>"Hotel",
-		"locations"=>"Locations",
+		"travel"=>"Travel",
 		"registry"=>"Registry",
 	);
 }

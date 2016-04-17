@@ -64,6 +64,7 @@ if($lang=="de"){
 				$blob = $menu_blobs[$item];
 				echo("<p class='description'>$blob</p>");
 				echo("<h1><a href='$item?lang=$lang'><img src='$item/title_$lang.svg' alt='$name' /></a></h1>");
+				// echo("<h1><a href='$item?lang=$lang'>$name</a></h1>");
 			} ?>
 	    </main>
 		<img src="assets/svg/us.svg" alt="" class="us-image"/>
