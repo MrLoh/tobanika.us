@@ -5,15 +5,15 @@ if($lang=="de"){
 	$menu_blobs = array(
 		"program"=>"Programm",
 		"hotel"=>"Hotel",
-		"locations"=>"Locations",
+		"travel"=>"Locations",
 		"registry"=>"Wunschliste",
 	);
 } else {
 	$menu_blobs = array(
-		"program"=>"For more information about the shedule on the wedding day and the activities on Saturday, Sunday, and Monday, go to:",
-		"hotel"=>"We have reserved rooms in a Courtyard Marriot Hotel and recommend you stay there for the wedding weekend, to learn more go to:",
-		"locations"=>"Locations",
-		"registry"=>"Registry",
+		"program"=>"To learn about events happening during the Wedding Weekend.",
+		"hotel"=>"To learn about accommodations for the Wedding Weekend.",
+		"travel"=>"For out-of-town guests planning a longer stay in Chicago.",
+		"registry"=>"To see what our home could look like someday.",
 	);
 }
 
