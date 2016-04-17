@@ -114,6 +114,9 @@ nav {
 			}
         }
     }
+    @media (max-width: 600px) {
+    	font-size: 12px;
+    }
     @media (max-width: 400px) {
     	margin: 1rem 0;
     	ul {
@@ -372,6 +375,7 @@ main {
 			color: $mint;
 			@media (max-width: 600px) {
 				border-width: 1px;
+				padding: 2rem 0;
 			}
 		}
 
@@ -391,6 +395,12 @@ main {
 			border: none;
 			padding: 2rem 0;
 			margin: 0;
+			@media (max-width: 600px) {
+				padding: 1rem 0;
+				&:first-of-type {
+					padding: 0;
+				}
+			}
 		}
 	}
 }

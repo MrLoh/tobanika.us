@@ -32,7 +32,7 @@
 ### Wedding Ceremony
 ![](church.jpg)
 Libertyville Covenant Church <br>
-[250 South St. Mary's Road, Libertyville, IL 60048](https://www.google.com/maps/place/Libertyville+Covenant+Church)
+[250 S St. Mary's Rd, Libertyville, IL 60048](https://www.google.com/maps/place/Libertyville+Covenant+Church)
 
 We want to get married in front of our friends and family as a witness to the role you all have played, and continue to play, in our lives.  We will be married by two pastors, one German and one American, who have been important to each of us.  Please come witness our marriage and then join us for a large group photo afterwards in front of the church.
 
