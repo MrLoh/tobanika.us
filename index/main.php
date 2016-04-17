@@ -40,7 +40,7 @@ $title = $menu_items[$dir];
 		    </ul>
 		</nav>
 	</header>
-    <main id="main">
+    <main id="main" class="<?php echo($dir); ?>">
 		<h1>
 			<img src="<?php echo("title_$lang.svg"); ?>" alt="<?php echo($title) ?>" />
 		</h1>
