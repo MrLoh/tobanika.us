@@ -53,10 +53,10 @@ Join us in celebrating our marriage as we enjoy a delicious vegetarian dinner to
 midnight
 ### Reception After-Party
 ![](hotel.jpg)
-Bar of Courtyard Marriott Chicago Highland Park/Northbrook <br>
+Bar of Courtyard Marriott Chicago Highland Park/Northbrook Hotel <br>
 [1505 Lake Cook Rd, Highland Park, IL 60035](https://www.google.com/maps/place/Courtyard+Chicago+Highland+Park%2FNorthbrook)
 
-German wedding receptions have a tendency to go until 5 in the morning. In honor of this, we will continue the party — on a more chill level — at the hotel lobby after the reception hall closes down. All are welcome to join!
+German wedding receptions have a tendency to go until 5 in the morning. In honor of this, we will continue the party — on a more chill level — at the hotel lobby after the reception hall closes down at midnight. All are welcome to join!
 
 -------------------------------------------------------------------------------
 
@@ -97,7 +97,7 @@ Tickets are $30, which includes entry and a rental chair and table.  The cost is
 DeerGrove Covenant Church <br>
 [225 E Helen Rd, Palatine, IL 60067](https://www.google.com/maps/place/Deer+Grove+Covenant+Church)
 
-Join us for morning worship service at [the Bride's home church](http://deergrove.org), in the tradition of the contemporary Evangelical Covenant.
+Join us for morning worship service at [the Bride's home church](http://deergrove.org), in the tradition of the contemporary [Evangelical Covenant](http://www.covchurch.org/).
 
 -------------------------------------------------------------------------------
 

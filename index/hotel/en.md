@@ -2,7 +2,7 @@
 We have reserved a block of rooms at the Courtyard Marriott Chicago Highland Park/Northbrook Hotel for out-of-town guests to find a place to stay for the weekend of the wedding.  The block of rooms is called the Williams/Lohse Wedding Room Block and is held for the nights of Thursday, September 8th through Saturday, September 10th.
 
 ## Where:
-The hotel is located at 1505 Lake Cook Road, Highland Park, Illinois 60035.  Please note that there is a second Marriott Courtyard Hotel on this same street, so note the name of the correct hotel: Courtyard Marriott Chicago Highland Park/Northbrook.
+The hotel is located at [1505 Lake Cook Road, Highland Park, IL 60035](https://www.google.com/maps/place/Courtyard+Chicago+Highland+Park%2FNorthbrook).  Please note that there is a second Marriott Courtyard Hotel on this same street, so note the name of the correct hotel: Courtyard Marriott Chicago Highland Park/Northbrook.
 
 The hotel is about an hour from downtown Chicago (10 minutes with shuttle to train station, 50 minutes on train to Ogilvie Transportation Center).  Getting to the hotel directly from O’Hare Airport will take about 25 minutes with a car.
 
@@ -14,7 +14,7 @@ Reservations must be made on or before Thursday, August 18th, as this is the Cut
 If you are looking for other people to share a hotel room, please contact Lauren ([maidofhonor@tobanika.us](mailto:maidofhonor@tobanika.us)) to find potential roommates.
 
 ## Why:
-This hotel is convenient for getting home from the Reception and for attending the Weekend Program events we have planned for the wedding weekend, so we highly encourage all guests in need of a hotel to stay here.  At the minimum for the evening of Friday, September 9th, because at midnight after the Reception we will have an After Party in the hotel lounge.
+This hotel is convenient for getting home from the Reception and for attending the Weekend Program events we have planned for the Wedding Weekend, so we highly encourage all guests in need of a hotel to stay here.  At the minimum for the evening of Friday, September 9th, because at midnight after the Reception we will have an After Party in the hotel lounge.
 
 The hotel block has two different types of rooms:
 
