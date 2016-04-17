@@ -32,7 +32,7 @@ if($lang=="de"){
 	<script src="https://use.typekit.net/tho7pee.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-	<title>Tobias &#x2764; Anika</title>
+	<title>Tobias &#x2661; Anika</title>
 </head>
 <body>
 	<div class="home-frame">

@@ -17,7 +17,7 @@ $title = $menu_items[$dir];
 	<script src="https://use.typekit.net/tho7pee.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-	<title>Tobias &#x2764; Anika | <?php echo($title) ?></title>
+	<title>Tobias &#x2661; Anika | <?php echo($title) ?></title>
 </head>
 <body>
 	<?php include_once("../assets/lib/analyticstracking.php"); ?>
