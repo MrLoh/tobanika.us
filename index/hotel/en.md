@@ -33,27 +33,20 @@ The hotel offers a free shuttle to hotel guests within a 5-mile (8-km) radius, w
 
 We will be hiring a shuttle for hotel guests without access to a car for the day of the wedding.  It will take guests from the hotel to Libertyville Covenant Church for the ceremony, then to the Kenilworth Club for the reception, and back to the hotel in the evening.  Please indicate on your RSVP card if you will be needing this service.  We will inform you of an exact shuttle schedule when you check in to the hotel.
 
+<span id="hoteltaxi"></span>
 ## Getting to the Hotel
 
 If you are coming directly to the hotel from O’Hare Airport, the hotel manager has given us some helpful information regarding taxis from the airport to the hotel:  
 
-When you arrive at the airport and have collected your bags, you can call [American Taxi](https://www.americantaxi.com/ATOnlineOrderWeb/main.htm) (+1 847-255-9600) who will give you the taxi number to look for and instructions on where to pick it up.
+When you arrive at the airport and after you have collected your bags, you can call [American Taxi](https://www.americantaxi.com/ATOnlineOrderWeb/main.htm) (+1 847-255-9600) who will give you the taxi number to look for and instructions on where to pick it up. Additionally, there are 30+ phones marked "American Taxi" in the baggage claim areas at O'Hare. You can ask at the airport when you pick up your bags where to find one of these so you can order a taxi if you don't have a working cell phone.
 
-[22:39, 4/17/2016] Julie Williams: I called American Taxi Customer Service, they say there are 30+ phones marked "American Taxi" in the baggage claim areas at O'Hare - they can ask at the airport when they pick up their bags where to find one of these so they can order a taxi.  American Taxi can pnly deliver people to suburban addresses from O'Hare, not into the city of Chicago FYI.
-[22:40, 4/17/2016] Julie Williams: Terminal 5 - International Terminal
-Pick Up Door E on baggage claim level, first lane of traffic.
-[22:48, 4/17/2016] Julie Williams: That last message is copied from the American taxi website - so is this...
-[22:48, 4/17/2016] Julie Williams: Chicago Airport Pick Up Information 
-Call 847-255-9600 AFTER you have collected all luggage to confirm your arrival, and you will be assigned your taxicab number. Please only take that taxicab.
-Cell phones will receive a text of the taxicab number.
-
-American Taxi has a flat fee from the airport to our hotel of about $34 dollars for a regular taxi (vans are about $10 more).   This is important to note because there is a difference between Chicago city taxis and Chicago suburban taxis.  American Taxi is a suburban taxi service, while city taxis include a huge surcharge to deliver to suburban addresses (ending up at $80 for the same trip to the hotel).  The first taxi you see at the airport, picking up passengers at the curb, is probably a city taxi so it is best to order a taxi ahead of time via phone.
+American Taxi has a flat fee from the airport to the Courtyard Marriott hotel of about $34 dollars for a regular taxi (vans are about $10 more).   This is important to note because there is a difference between Chicago city taxis and Chicago suburban taxis.  American Taxi is a suburban taxi service, while city taxis include a huge surcharge to deliver to suburban addresses (ending up at $80 for the same trip to the hotel).  The first taxi you see at the airport, picking up passengers at the curb, is probably a city taxi so it is best to order a taxi ahead of time via phone.
 
 Here are the pickup locations of American Taxi at each terminal for O'Hare Airport:
 
-- Terminal 1: Pick Up Door G on baggage claim level, middle lane of traffic. 
-- Terminal 2: Pick Up Door E on baggage claim level, middle lane of traffic. 
-- Terminal 3: Pick Up Door G on baggage claim level, middle lane of traffic. 
+- Terminal 1: Pick Up Door G on baggage claim level, middle lane of traffic.
+- Terminal 2: Pick Up Door E on baggage claim level, middle lane of traffic.
+- Terminal 3: Pick Up Door G on baggage claim level, middle lane of traffic.
 - Terminal 5 - International Terminal: Pick Up Door E on baggage claim level, first lane of traffic.
 
 For airline/terminal information, check [here](http://www.flychicago.com/OHare/EN/MyFlight/Airline/Airline-Information).
