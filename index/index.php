@@ -3,10 +3,10 @@ include_once("config.php");
 
 if($lang=="de"){
 	$menu_blobs = array(
-		"program"=>"Program",
-		"hotel"=>"Hotel",
-		"travel"=>"Locations",
-		"registry"=>"Wunschliste",
+		"program"=>"Erfahre mehr über die Aktivitäten am Hochzeitswochenene:",
+		"hotel"=>"Übernachtungsmöglichkeiten fürs Hochzeitswochenende:",
+		"travel"=>"Für alle die einen Urlaub in den USA planen:",
+		"registry"=>"Inspirationen für Hochzeitsgeschenke:",
 	);
 } else {
 	$menu_blobs = array(
