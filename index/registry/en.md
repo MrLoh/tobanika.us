@@ -1,3 +1,7 @@
-Link to Thankful Registry page, with password
+We are registered at
 
-Link to Registry set up directly with Crate and Barrel for silverware and dishes (and everything else we have registered there, but especially for keeping track of the numbers of sets people buy).  
+[Thankful](https://thankfulregistry.com/tobanika) (password: berlin-chicago)
+
+and
+
+Crate&Barrel 

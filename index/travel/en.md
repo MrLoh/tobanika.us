@@ -14,7 +14,7 @@ The [Metra](https://metrarail.com/metra/en/home.html) is Chicago's regional trai
 
 **Taxis**
 
-Another immediate option for getting around in the city is to take a taxi. Here is a good article about [hailing a taxi](https://www.evernote.com/shard/s34/sh/47750197-96da-44b1-a3ac-a399877e7cdd/2adf3f84ec7d210f) in Chicago, because you can grad any taxi as it drives by, as long as it's empty. And don't forget to tip! Check out info about getting a taxi from O'Hare airport to the wedding weekend hotel [here](../hotel#hoteltaxi).
+Another immediate option for getting around in the city is to take a taxi. Here is a good article about [hailing a taxi](https://www.evernote.com/shard/s34/sh/47750197-96da-44b1-a3ac-a399877e7cdd/2adf3f84ec7d210f) in Chicago, because you can grab any taxi as it drives by, as long as it's empty. And don't forget to tip! Check out info about getting a taxi from O'Hare airport to the wedding weekend hotel [here](../hotel#hoteltaxi).
 
 ## Accommodations for Chicago Vacation
 
@@ -23,6 +23,8 @@ Note that the Courtyard Marriott Hotel recommended for the wedding weekend, and 
 We would recommend finding an AirBnB or hotel somewhere in the [Lincoln Park neighborhood](https://www.google.com/maps/place/Lincoln+Park,+Chicago,+IL,+USA), which gives access to the Metra for getting everywhere from downtown to the beautiful northern suburbs to the hip neighborhoods on the west side of town.
 
 ##  Special Things to Note
+
+If you really feel inspired to learn about how to be American, check out [this article](https://www.tripadvisor.com/Travel-g191-c3541/United-States:Customs.Habits.And.Etiquette.html) for some great tips.  ;)
 
 **Getting into the USA**
 
