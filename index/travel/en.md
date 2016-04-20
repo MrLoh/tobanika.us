@@ -1,3 +1,5 @@
+Check out the [list](http://vacation.for.tobanika.us) we made of our favorite activities in and around Chicago for planning your trip.  We also included a couple other suggestions for traveling in the US if you have more planning to do!
+
 ## Using Public Transit in Chicago
 
 **The L and City Buses**

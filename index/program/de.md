@@ -79,7 +79,7 @@ Open Air Konzerte inklusive Picknick sind ein besonderes Highlight des Sommers i
 
 Am Samstag abend wird der Film-Klassiker [The Wizard of Oz](https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)) aus dem Jahre 1939 gezeigt und live vom der [Chicago Philharmonic](http://www.chicagophilharmonic.org) mit seinem bekannten Soundtrack untermahlt! Bringt Essen und Trinken zum gemeinsamen Picknick um 17:30 Uhr mit und genießt das Film-Konzert um 19:00 Uhr zusammen mit uns.
 
-Karten kosten 30$ inklusive Klappstuhl, 15$ für Schüler und Studenten (mit gültigem datierten Schüler/Studentenausweis), der Eintritt für Kinder unter 15 ist frei. Wenn wir ein Ticket für euch Vorbestellen sollen, gebt dies bitte auf der RSVP Karte an oder schreibt uns direckt eine email ([us@tobanika.us](mailto:us@tobanika.us)). Es gibt evtl. auch noch Karten an der Abendkasse für 8$ (+5$ für einen Klappstuhl), wenn ihr es daraug ankommen lassen wollt.
+Karten kosten 30$ inklusive Klappstuhl, 15$ für Schüler und Studenten (mit gültigem datierten Schüler/Studentenausweis), der Eintritt für Kinder unter 15 ist frei. Wenn wir ein Ticket für euch Vorbestellen sollen, gebt dies bitte auf der RSVP Karte an oder schreibt uns direckt eine email ([us@tobanika.us](mailto:us@tobanika.us)). Es gibt evtl. auch noch Karten an der Abendkasse für 8$ (+5$ für einen Klappstuhl), wenn ihr es darauf ankommen lassen wollt. Falls ihr im Hotel übernachtet, könnt ihr den kostenlosen Shuttleservice in Anspruch nehmen um zum Ravinia Festival zu gelangen.
 
 -------------------------------------------------------------------------------
 
