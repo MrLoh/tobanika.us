@@ -27,19 +27,17 @@
 
 ## Freitag - 9.9.
 
-<span id="ceremony"></span>
-15:00 Uhr
+<span id="ceremony">15:00 Uhr</span>
 ### Traugottesdienst
 ![](church.jpg)
 Libertyville Covenant Church <br>
 [250 S St. Mary's Rd, Libertyville, IL 60048](https://www.google.com/maps/place/Libertyville+Covenant+Church)
 
-Vor Gott und unseren Freunden und Verwandten wollen wir unseren Entscheidung bekräftigen, gemeinsam durchs Leben zu gehen und unseren Beitrag in der Welt für das Reich Gottes zu leisten. Wir freuen uns euch alle dabei zu haben, die ihr uns ein Stück des Weges begelitet habt und weiterhin begleiten werdet. Der Traugottesdienst wird von einer deutschen und einer amerikanische Pastorin geleitet werden. Bitte bleibt nach dem Gottesdienst für ein Gruppenfoto an der Kirche.
+Vor Gott und unseren Freunden und unserer Familie wollen wir unsere Entscheidung bekräftigen, gemeinsam durchs Leben zu gehen und uns darin zu bestärken unseren Beitrag in der Welt zu leisten. Wir freuen uns euch alle dabei zu haben, die ihr uns ein Stück des Weges begleitet habt und weiterhin begleiten werdet. Der Traugottesdienst wird von einer deutschen und einer amerikanische Pastorin geleitet, die gute Freunde von uns sind. Bitte bleibt nach dem Gottesdienst für ein Gruppenfoto an der Kirche.
 
 -------------------------------------------------------------------------------
 
-<span id="reception"></span>
-18:00 Uhr
+<span id="reception">18:00 Uhr</span>
 ### Hochzeitsfeier
 ![](kenilworth.jpg)
 Kenilworth Club <br>
@@ -49,8 +47,7 @@ Begleitet uns nach der Trauung zum Kenilworth Club, wo wir unser Hochzeit feiern
 
 -------------------------------------------------------------------------------
 
-<span id="after-party"></span>
-Mitternacht
+<span id="after-party">Mitternacht</span>
 ### Hochzeits After-Party
 ![](hotel.jpg)
 Bar des Courtyard Marriott Chicago Highland Park/Northbrook Hotel <br>
@@ -62,8 +59,7 @@ Die Hochzeitsfeier endet nach amerikanischer Gepflogenheit um Mitternacht. Damit
 
 ## Samstag - 10.9.
 
-<span id="botanic"></span>
-12:00 – 17:00  Uhr
+<span id="botanic">12:00 – 17:00  Uhr</span>
 ### Botanischer Garten von Chicago
 ![](gardens.jpg)
 Chicago Botanic Gardens <br>
@@ -73,14 +69,13 @@ Erholt euch von der Hochzeitsfeier bei einem entspannten Spaziergang durch den B
 
 -------------------------------------------------------------------------------
 
-<span id="ravinia"></span>
-17:30 Uhr
+<span id="ravinia">17:30 Uhr</span>
 ### The Wizard of Oz mit Orchester
 ![](ravinia.jpg)
 Ravinia Festival <br>
 [418 Sheridan Rd, Highland Park, IL 60035](https://www.google.com/maps/place/Ravinia+Festival)
 
-Open Air Konzerte inklusive Picknick sind ein besonderes Highlight der Sommermonate in Chicago. Das [Ravinia Festival](https://www.ravinia.org) veranstaltet jedes Sommerwochenende Konzerte im Park. Das Orchester sitzt in einem Pavillon welcher von weitläufigen Wiesen umgeben ist, auf denen man vor und während des Konzertes picknicken und sich entspannen kann.
+Open Air Konzerte inklusive Picknick sind ein besonderes Highlight des Sommers in Chicago. Das [Ravinia Festival](https://www.ravinia.org) veranstaltet jedes Wochenende Konzerte im Park. Das Orchester sitzt in einem Pavillon welcher von weitläufigen Wiesen umgeben ist, auf denen man vor und während des Konzertes picknicken und sich entspannen kann.
 
 Am Samstag abend wird der Film-Klassiker [The Wizard of Oz](https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)) aus dem Jahre 1939 gezeigt und live vom der [Chicago Philharmonic](http://www.chicagophilharmonic.org) mit seinem bekannten Soundtrack untermahlt! Bringt Essen und Trinken zum gemeinsamen Picknick um 17:30 Uhr mit und genießt das Film-Konzert um 19:00 Uhr zusammen mit uns.
 
@@ -90,55 +85,50 @@ Karten kosten 30$ inklusive Klappstuhl, 15$ für Schüler und Studenten (mit gü
 
 ## Sonntag - 11.9.
 
-<span id="church"></span>
-10:30 Uhr
+<span id="church">10:30 Uhr</span>
 ### Gottesdienst
 ![](deergrove.jpg)
 DeerGrove Covenant Church <br>
 [225 E Helen Rd, Palatine, IL 60067](https://www.google.com/maps/place/Deer+Grove+Covenant+Church)
 
-Alle sind herzlich zum regulären Gottesdienst in der DeerGrove Covenant Church — der [Heimatkirche der Braut](http://deergrove.org) — eingeladen. Die moderne [Evangelical Covenant Church](http://www.covchurch.org/) ist eine Kirche in der lutherischen Tradition.
+Alle sind herzlich zum regulären Gottesdienst in der [DeerGrove Covenant](http://deergrove.org) Church — der Heimatkirche der Braut — eingeladen. Die moderne [Evangelical Covenant Church](http://www.covchurch.org/) ist eine Kirche in der lutherischen Tradition.
 
 -------------------------------------------------------------------------------
 
-<span id="citytour"></span>
-15:00 Uhr
+<span id="citytour">15:00 Uhr</span>
 ### Chicago Stadtführung
 ![](chicago.jpg)
 Treffpunkt wird bekannt gegeben.
 
-Experience the breathtaking architecture and colorful history of the Windy City with us on a walking tour. More details to follow.
+Erkunde die bewegte Geschichte und atemberaubende Architektur der Windy City auf einer Stadtour mit und. Weitere Details folgen in Kürze.
 
 -------------------------------------------------------------------------------
 
-<span id="brewery"></span>
-19:00 Uhr
+<span id="brewery">19:00 Uhr</span>
 ### Brauereitour und Verkostung
 ![](brewery.jpg)
 Treffpunkt wird bekannt gegeben.
 
-End the city tour with a visit to a local [Chicago craft brewery](http://www.timeout.com/chicago/bars/chicagos-craft-beer-scene), with a guided tour and tasting.  Learn about the different styles of beer that have become famous in the US in the past few years from the Bride's beer connoisseur brother, and enjoy some delicious cold brew. Even the German Groom is impressed by the selection and creativity of the modern brews of the American craft brewery scene. More details to follow.  Please keep in mind that this is a 21+ event.
+Lasst die Stadtführung mit dem Besuch einer vom bierkennerischen Bruder der Braut handverlesenen Brauerei ausklingen. Chicago hat seit einigen Jahren eine sehr lebendige Szene von zahlreichen kleinen lokalen Brauereien — sogenannten [craft breweries](http://www.timeout.com/chicago/bars/chicagos-craft-beer-scene) — welche sehr innovativ sind und problemlos mit deutschem Bier mithalten können. Auf der Führung kannst du mehr über die verschiedenen alten und neuen Biersorten lernen, welche sich einer wachsenden Popularität in den USA erfreuen. Weitere Details folgen in Kürze. Bitte beachtet, dass die Verkostung von Bier in den USA erst ab dem 21. Lebensjahr erlaubt ist.
 
 -------------------------------------------------------------------------------
 
 ## Montag - 12.9.
 
-<span id="art"></span>
-11:00 – 17:00  Uhr
+<span id="art">11:00 – 17:00  Uhr</span>
 ### Besuch im Art Institute
 ![](artinstitute.jpg)
-Art Institute of Chicago <br>
+Art Institute von Chicago <br>
 [111 S Michigan Ave, Chicago, IL 60603](https://www.google.com/maps/place/The+Art+Institute+of+Chicago)
 
-We would love for you to join us in visiting Chicago's most famous (and the Groom's favorite) museum, the [Art Institute](http://www.artic.edu). Walk past the famous bronze lions and enter a great museum with some amazing art, including the Chagall window, Impressionist and Expressionist paintings, Edward Hopper's [Nighthawks](http://wikiwand.com/en/Nighthawks), and some miniature dollhouse rooms (little Anika's favorite exhibit).
+Besucht Chicagos berühmtestes (und Tobias Liebstes) Museum mit uns, das [Art Institute](http://www.artic.edu). Geschützt von den majestätischen Bronzelöwen gibt es unter vielem anderem herausragende im- und expressionistische Gemälde, die Chagall Fenster und natürlich Edward Hopper's [Nighthawks](http://wikiwand.com/en/Nighthawks) zu bestaunen. Nicht versäumen sollte man auch die Sammlung von miniatur Puppenhäusern (klein Anikas Lieblingsausstellung).
 
 -------------------------------------------------------------------------------
 
-<span id="baseball"></span>
-7:00 PM
+<span id="baseball">7:00 PM</span>
 ### White Sox Baseball Spiel
 ![](baseballfield.jpg)
 US Cellular Field <br>
 [333 W 35th St, Chicago, IL 60616](https://www.google.com/maps/place/U.S.+Cellular+Field)
 
-Join us for a classic ballgame between the Bride’s favorite team, the [Chicago White Sox](http://chicago.whitesox.mlb.com), and the Cleveland Indians.  If you don’t know much about baseball, this is your chance to have a great American experience and learn how the game is played.  Baseball games are a great background for socializing, drinking beer, and eating hotdogs.  No need to worry about standing and cheering for several hours.  Be sure to wear black and white!  And absolutely no red!
+Für eine echt amerikanische Erfahrung solltet ihr es nicht versäumen uns zu einem Baseball Spiel zu begleiten. Das Lieblingsteam der Braut, die [Chicago White Sox](http://chicago.whitesox.mlb.com) werden die Cleveland Indians mit Sicherheit vernichtent schlagen. Wir erklären euch die Spielregeln und ihr müsst euch keine Sorgen machen, dass die ganze Zeit stehen und grölen müsst. Baseball ist ein Sport mit vielen Pausen und lädt zu gemütlichen Gesprächen und Bier-Trinken und HotDog- oder Brezel-Essen ein. Dresscode: Schwarz und Weiß und auf gar keinen Fall Rot!

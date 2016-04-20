@@ -27,8 +27,7 @@
 
 ## Fri : Sept 9
 
-<span id="ceremony"></span>
-3:00 PM
+<span id="ceremony">3:00 PM</span>
 ### Wedding Ceremony
 ![](church.jpg)
 Libertyville Covenant Church <br>
@@ -38,8 +37,7 @@ We want to get married in front of our friends and family as a witness to the ro
 
 -------------------------------------------------------------------------------
 
-<span id="reception"></span>
-6:00 PM
+<span id="reception">6:00 PM</span>
 ### Wedding Reception
 ![](kenilworth.jpg)
 Kenilworth Club <br>
@@ -49,8 +47,7 @@ Join us in celebrating our marriage as we enjoy a delicious vegetarian dinner to
 
 -------------------------------------------------------------------------------
 
-<span id="after-party"></span>
-midnight
+<span id="after-party">midnight</span>
 ### Reception After-Party
 ![](hotel.jpg)
 Bar of Courtyard Marriott Chicago Highland Park/Northbrook Hotel <br>
@@ -62,8 +59,7 @@ German wedding receptions have a tendency to go until 5 in the morning. In honor
 
 ## Sat : Sept 10
 
-<span id="botanic"></span>
-12:00 PM – 5:00 PM
+<span id="botanic">12:00 PM – 5:00 PM</span>
 ### Chicago Botanic Garden
 ![](gardens.jpg)
 Chicago Botanic Gardens <br>
@@ -73,8 +69,7 @@ Enjoy an early afternoon of strolling through the lovely Botanic Gardens of Chic
 
 -------------------------------------------------------------------------------
 
-<span id="ravinia"></span>
-5:30 PM
+<span id="ravinia">5:30 PM</span>
 ### The Wizard of Oz with Orchestra
 ![](ravinia.jpg)
 Ravinia Festival <br>
@@ -90,8 +85,7 @@ Tickets are $30, which includes entry and a rental chair and table.  The cost is
 
 ## Sun : Sept 11
 
-<span id="church"></span>
-10:30 AM
+<span id="church">10:30 AM</span>
 ### Church Service
 ![](deergrove.jpg)
 DeerGrove Covenant Church <br>
@@ -101,8 +95,7 @@ Join us for morning worship service at [the Bride's home church](http://deergrov
 
 -------------------------------------------------------------------------------
 
-<span id="citytour"></span>
-3:00 PM
+<span id="citytour">3:00 PM</span>
 ### Chicago City Tour
 ![](chicago.jpg)
 Meeting location to be announced.
@@ -111,8 +104,7 @@ Experience the breathtaking architecture and colorful history of the Windy City 
 
 -------------------------------------------------------------------------------
 
-<span id="brewery"></span>
-7:00 PM
+<span id="brewery">7:00 PM</span>
 ### Craft Brewery Tour
 ![](brewery.jpg)
 Location to be announced.
@@ -123,10 +115,10 @@ End the city tour with a visit to a local [Chicago craft brewery](http://www.tim
 
 ## Mon : Sept 12
 
-<span id="art"></span>
-11:00 AM – 5:00 PM
+<span id="art">11:00 AM – 5:00 PM</span>
 ### Art Institute Visit
 ![](artinstitute.jpg)
+
 Art Institute of Chicago <br>
 [111 S Michigan Ave, Chicago, IL 60603](https://www.google.com/maps/place/The+Art+Institute+of+Chicago)
 
@@ -134,8 +126,7 @@ We would love for you to join us in visiting Chicago's most famous (and the Groo
 
 -------------------------------------------------------------------------------
 
-<span id="baseball"></span>
-7:00 PM
+<span id="baseball">7:00 PM</span>
 ### White Sox Baseball Game
 ![](baseballfield.jpg)
 US Cellular Field <br>

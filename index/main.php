@@ -57,8 +57,12 @@ $title = $menu_items[$dir];
 		    </ul>
 			<div class="right">
 				<p class="contact">
-					ask us anything: <br>
+					<?php if($lang="de") echo("Bei Fragen:"); else echo("ask us anything:") ?> <br>
 					<a href="mailto:us@tobanika.us">us@tobanika.us</a>
+				</p>
+				<p>
+					Design &amp; <a href="http://github.com/MrLoh/tobanika.us" style="text-decoration: none;">Code</a><br>
+					&copy; Tobanika
 				</p>
 			</div>
 		</div>
