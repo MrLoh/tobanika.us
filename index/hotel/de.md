@@ -40,6 +40,8 @@ Das Hotel bietet einen kostenfreien Shuttleservice für sein Gäste im Radius vo
 
 Am Tag der Hochzeit organisieren wir ein Shuttle für Hotelgäste ohne Auto. Dieser wird vom Hotel zur Kirche, von der Kirche zum Ort der Feier und von dort am abend zurück zum Hotel fahren. Falls ihr dieses Shuttle in Anspruch nehmen wollt, gebt dies bitte auf eurer Rückmeldungs Karte (RSVP) am. Wir werden euch dann über die Details informieren, wenn ihr ins Hotel eincheckt.
 
+Weitere Informationen zu öffentlichen Verkehrsmitteln in Chicago, finden sich unter [Reiseinfo](../travel?lang=de).
+
 
 <span id="hoteltaxi"></span>
 ## Anfahrt zum Hotel
@@ -61,4 +63,4 @@ Weitere Informationen zur Airline und zum Terminal finden sich [hier](http://www
 
 ## Unterbringung für einen Chicago Urlaub
 
-Es ist zu beachten, dass das Hotel und die meisten der Aktivitäten am Hochzeitswochenende in den Chicago Vorstädten stattfinden. Falls ihr einen längeren Urlaub in Chicago plant könnte es ratsam sein eine andere Unterkunft ab Sonntag oder Montag zu suchen, welche Zentraler gelegen ist. Weitere Informationen dazu findet ihr unter [Reiseinfo](../travel?lang=de).
+Es ist zu beachten, dass das Hotel und die meisten der Aktivitäten am Hochzeitswochenende in den Chicago Vorstädten stattfinden. Falls ihr einen längeren Urlaub in Chicago plant könnte es ratsam sein eine andere Unterkunft ab Sonntag oder Montag zu suchen, welche Zentraler gelegen ist. Weitere Informationen dazu findet ihr unter [Reiseinfo](../travel?lang=de#chicagoaccomodation).
