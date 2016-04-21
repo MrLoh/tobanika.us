@@ -1,7 +1,7 @@
 Falls ihr Inspiration für euren Urlaub sucht, schaut euch die [Liste](http://urlaub.fuer.tobanika.us) unserer Lieblingsaktivitäten in und um Chicago an.
 
 
-## Using Public Transit in Chicago
+## Öffentliche Verkehrsmittel in Chicago
 
 **Die L und Busse**
 

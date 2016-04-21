@@ -1,0 +1,1 @@
+In den USA ist es üblich Wünsche für Hochzeitsgeschenke auf einer Wunschliste (Registry) zu vermerken. Ihr könnt unsere Registry finden unter [www.thankfulregistry.com/tobanika](https://thankfulregistry.com/tobanika) (Passwort: "berlin-chicago").
