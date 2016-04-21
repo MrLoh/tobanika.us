@@ -5,7 +5,7 @@ Wir haben einen Zimmerblock im Courtyard Marriott Chicago Highland Park/Northbro
 
 ## Warum
 
-Das Hotel is sehr günstig gelegen um zum Traugottesdienst, zur Hochzeitsfeier, und zu den Wochenendaktivitäten zu gelangen. Wir raten euch daher sehr am Wochenende im Hotel zu übernachten, wenn ihr eine Übernachtungsmöglichkeit braucht. Am Tag der Hochzeit organisieren wir einen Bus zur Kirche und von der Kirche zur Feier. Die After-Party wird im Hotel stattfinden und der Botanische Garten und das Ravinia Festival liegen einen Spaziergang vom Hotel entfernt und werden vom Hotel Shuttle Service angefahren.
+Das Hotel is sehr günstig gelegen um zum Traugottesdienst, zur Hochzeitsfeier, und zu den [Wochenendaktivitäten](../program?lang=de) zu gelangen. Wir raten euch daher sehr am Wochenende im Hotel zu übernachten, wenn ihr eine Übernachtungsmöglichkeit braucht. Am Tag der Hochzeit organisieren wir einen Bus zur Kirche und von der Kirche zur Feier. Die After-Party wird im Hotel stattfinden und der Botanische Garten und das Ravinia Festival liegen einen Spaziergang vom Hotel entfernt und werden vom Hotel Shuttle Service angefahren.
 
 
 ## Wo
@@ -34,30 +34,31 @@ Beide Zimmertypen kosten 121$ pro Nacht inklusive Steuern. (Bei voller Belegung 
 Falls du / ihr andere Leute sucht um ein Zimmer zu teilen, kontaktiert bitte Lauren ([maidofhonor@tobanika.us](mailto:maidofhonor@tobanika.us)), die euch helfen wird Mitbewohner zu finden.
 
 
-## Getting Around
+## Fortbewegung
 
-The hotel offers a free shuttle to hotel guests within a 5-mile (8-km) radius, which includes the [Braeside](http://metrarail.com/content/metra/en/home/maps_schedules/metra_system_map/up-n/map.html) or [Lake Cook Road](http://metrarail.com/content/metra/en/home/maps_schedules/metra_system_map/md-n/map.html) Metra train stations (ideal for reaching downtown Chicago) and the Chicago Botanic Garden and Ravinia Park (Wedding Weekend Program events for Saturday).
+Das Hotel bietet einen kostenfreien Shuttleservice für sein Gäste im Radius von 8km (5 Meilen) an. Mit diesem Shuttle kann man zur [Braeside](http://metrarail.com/content/metra/en/home/maps_schedules/metra_system_map/up-n/map.html) oder [Lake Cook Road](http://metrarail.com/content/metra/en/home/maps_schedules/metra_system_map/md-n/map.html) Metra Station gelangen, von denen man in die Innenstadt von Chicago gelangt. Der Botanische Garten und das Ravinia Festival werden direckt vom Shuttle Service angefahren.
 
-We will be hiring a shuttle for hotel guests without access to a car for the day of the wedding.  It will take guests from the hotel to Libertyville Covenant Church for the ceremony, then to the Kenilworth Club for the reception, and back to the hotel in the evening.  Please indicate on your RSVP card if you will be needing this service.  We will inform you of an exact shuttle schedule when you check in to the hotel.
+Am Tag der Hochzeit organisieren wir ein Shuttle für Hotelgäste ohne Auto. Dieser wird vom Hotel zur Kirche, von der Kirche zum Ort der Feier und von dort am abend zurück zum Hotel fahren. Falls ihr dieses Shuttle in Anspruch nehmen wollt, gebt dies bitte auf eurer Rückmeldungs Karte (RSVP) am. Wir werden euch dann über die Details informieren, wenn ihr ins Hotel eincheckt.
+
 
 <span id="hoteltaxi"></span>
-## Getting to the Hotel
+## Anfahrt zum Hotel
 
-If you are coming directly to the hotel from O’Hare Airport, the hotel manager has given us some helpful information regarding taxis from the airport to the hotel:  
+Falls ihr direckt vom O'Hare Flughafen zum Hotel kommt, empfiehlt es sich ein Taxi zu nehmen, da die Anfahrt mit öffentlichen Verkehrsmitteln fast 2 Stunden dauert. Bei der Bestellung des Taxis ist folgendes zu beachten:
 
-When you arrive at the airport and after you have collected your bags, you can call [American Taxi](https://www.americantaxi.com/ATOnlineOrderWeb/main.htm) (+1 847-255-9600) who will give you the taxi number to look for and instructions on where to pick it up. Additionally, there are 30+ phones marked "American Taxi" in the baggage claim areas at O'Hare. You can ask at the airport when you pick up your bags where to find one of these so you can order a taxi if you don't have a working cell phone.
+Nachdem ihr euer Gepäch habt und bevor ihr den Flughafen verlasst, solltet ihr am besten über [American Taxi](https://www.americantaxi.com/ATOnlineOrderWeb/main.htm) (+1 847-255-9600) ein Taxi rufen. Dieser Vermittlungsservice wird euch ein Taxis suchen und dann eine Taxinummer und einen Abholort mitteilen. Falls ihr nicht euer Handy benutzen wollt, finden sich über 30 Telephone mit der Aufschrift "American Taxi" im Gepächabholungs-Areal, das Flughafenpersonal kann dabei behilflich sein diese zu finden.
 
-American Taxi has a flat fee from the airport to the Courtyard Marriott hotel of about $34 dollars for a regular taxi (vans are about $10 more).   This is important to note because there is a difference between Chicago city taxis and Chicago suburban taxis.  American Taxi is a suburban taxi service, while city taxis include a huge surcharge to deliver to suburban addresses (ending up at $80 for the same trip to the hotel).  The first taxi you see at the airport, picking up passengers at the curb, is probably a city taxi so it is best to order a taxi ahead of time via phone.
+American Taxi ist desswegen zu empfehlen, weil es Taxis aus den Chicagoer Vorstädten vermittelt und einen Festpreis von ca. 34$ für ein Taxi vom Flughafen zum Hotel (+10$ für einen Kleinbus) hat. Die meisten Taxen am Flughafen sind von anderen Taxi Unternehmen, welche aus der Innenstadt kommen. Diese haben einen Aufpreis für Fahrten in die Vorstädten, wodurch der Gesamtpreis zum Hotel bis zu 80$ betragen kann. Daher empfiehlt es sich sehr das Taxi per Telefon zu rufen.
 
-Here are the pickup locations of American Taxi at each terminal for O'Hare Airport:
+Die Pickup Locations von American Taxi an den Verschiedenen Flughafen Terminals sind folgende:
 
-- Terminal 1: Pick Up Door G on baggage claim level, middle lane of traffic.
-- Terminal 2: Pick Up Door E on baggage claim level, middle lane of traffic.
-- Terminal 3: Pick Up Door G on baggage claim level, middle lane of traffic.
-- Terminal 5 - International Terminal: Pick Up Door E on baggage claim level, first lane of traffic.
+- Terminal 1: Pick Up an Tür G auf der Gepäckabholungs-Ebene, mittlere Spur
+- Terminal 2: Pick Up an Tür E auf der Gepäckabholungs-Ebene, mittlere Spur
+- Terminal 3: Pick Up an Tür G auf der Gepäckabholungs-Ebene, mittlere Spur
+- International Terminal 5:  Pick Up an Tür E auf der Gepäckabholungs-Ebene, erste Spur
 
-For airline/terminal information, check [here](http://www.flychicago.com/OHare/EN/MyFlight/Airline/Airline-Information).
+Weitere Informationen zur Airline und zum Terminal finden sich [hier](http://www.flychicago.com/ohare).
 
-## Accommodation for Chicago Vacation
+## Unterbringung für einen Chicago Urlaub
 
-Note that this hotel, and most of the Wedding Weekend Program events, are in the Chicago Suburbs. If you are planning a vacation to see Chicago in the days before or after the wedding weekend, this hotel might not be ideal for staying longer than the weekend because it is not in the city. Visit the [Travel](../travel) page for more information and suggestions on this topic.
+Es ist zu beachten, dass das Hotel und die meisten der Aktivitäten am Hochzeitswochenende in den Chicago Vorstädten stattfinden. Falls ihr einen längeren Urlaub in Chicago plant könnte es ratsam sein eine andere Unterkunft ab Sonntag oder Montag zu suchen, welche Zentraler gelegen ist. Weitere Informationen dazu findet ihr unter [Reiseinfo](../travel?lang=de).

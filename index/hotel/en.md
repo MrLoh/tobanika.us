@@ -2,7 +2,7 @@
 We have reserved a block of rooms at the Courtyard Marriott Chicago Highland Park/Northbrook Hotel for out-of-town guests to find a place to stay for the weekend of the wedding.  The block of rooms is called the Williams/Lohse Wedding Room Block and is held for the nights of Thursday, September 8th through Saturday, September 10th.
 
 ## Why
-This hotel is convenient for getting home from the Reception and for attending the [Weekend Program](../program) events we have planned for the wedding weekend, so we highly encourage all guests in need of a hotel to stay here.  At the minimum you should stay here for the evening of Friday, September 9th, because at midnight after the Reception we will have an After Party in the hotel lounge. This hotel also offers a free shuttle to anywhere within 5 miles (8km) of the hotel, which includes the Chicago Botanic Gardens and Ravinia Park for the wedding weekend events!
+This hotel is convenient for getting home from the Reception and for attending the [Weekend Program](../program?lang=en) events we have planned for the wedding weekend, so we highly encourage all guests in need of a hotel to stay here.  At the minimum you should stay here for the evening of Friday, September 9th, because at midnight after the Reception we will have an After Party in the hotel lounge. This hotel also offers a free shuttle to anywhere within 5 miles (8km) of the hotel, which includes the Chicago Botanic Gardens and Ravinia Park for the wedding weekend events!
 
 ## Where
 The hotel is located at [1505 Lake Cook Road, Highland Park, IL 60035](https://www.google.com/maps/place/Courtyard+Chicago+Highland+Park%2FNorthbrook).  Please note that there is a second Marriott Courtyard Hotel on this same street, so note the name of the correct hotel: Courtyard Marriott Chicago Highland Park/Northbrook.
@@ -48,10 +48,10 @@ Here are the pickup locations of American Taxi at each terminal for O'Hare Airpo
 - Terminal 1: Pick Up Door G on baggage claim level, middle lane of traffic.
 - Terminal 2: Pick Up Door E on baggage claim level, middle lane of traffic.
 - Terminal 3: Pick Up Door G on baggage claim level, middle lane of traffic.
-- Terminal 5 - International Terminal: Pick Up Door E on baggage claim level, first lane of traffic.
+- International Terminal 5: Pick Up Door E on baggage claim level, first lane of traffic.
 
-For airline/terminal information, check [here](http://www.flychicago.com/OHare/EN/MyFlight/Airline/Airline-Information).
+For airline/terminal information, check [here](http://www.flychicago.com/ohare).
 
 ## Accommodation for Chicago Vacation
 
-Note that this hotel, and most of the wedding weekend events, are in the Chicago Suburbs. If you are planning a vacation to see Chicago in the days before or after the wedding weekend, this hotel might not be ideal for staying longer than the weekend because it is not in the city. Visit the [Travel](../travel) page for more information and suggestions on this topic.
+Note that this hotel, and most of the wedding weekend events, are in the Chicago Suburbs. If you are planning a vacation to see Chicago in the days before or after the wedding weekend, this hotel might not be ideal for staying longer than the weekend because it is not in the city. Visit the [Travel](../travel?lang=en) page for more information and suggestions on this topic.
