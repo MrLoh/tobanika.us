@@ -1,6 +1,6 @@
 ## What
 
-We have reserved a block of rooms at the Courtyard Marriott Chicago Highland Park/Northbrook Hotel for out-of-town guests to find a place to stay for the weekend of the wedding.  The block of rooms is called the Williams/Lohse Wedding Room Block and is held for the nights of Thursday, September 8th through Saturday, September 10th.
+We have reserved a block of rooms at the Courtyard Marriott Chicago Highland Park/Northbrook Hotel for out-of-town guests to find a place to stay for the weekend of the wedding.  The block of rooms is called the Williams/Lohse Wedding Room Block and is held for the nights from Wednesday, September 7th through Sunday, September 11th.
 
 
 ## Why
