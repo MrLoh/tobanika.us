@@ -18,9 +18,9 @@ Die [Metra](https://metrarail.com/metra) ist Chicagos Regionalbahn System, welch
 Metra Tickets sind in den Zügen und an den meisten Stationen erhältlich. Ein Aufpreis von 3$ wird immer dann fällig, wenn man das Ticket erst im Zug kauft, obwohl es an der Zustiegsstation hätte gekauft werden können. Am Wochenende gibt es einen "Weekend Pass" für 8$, welcher sich immer lohnt, wenn mehr als eine Fahrt am Wochenende unternommen wird.
 
 
-**Taxis**
+**Taxi**
 
-Es gibt natürlich auch Taxis (und [Ubers](https://www.uber.com/cities/chicago/)) in Chicago. Wie ihr ein Taxi richtig heranwinkt, erfahrt ihr in [diesem Artikel](https://www.evernote.com/shard/s34/sh/47750197-96da-44b1-a3ac-a399877e7cdd/2adf3f84ec7d210f). In Taxis (aber nicht in Ubers) sollte man immer ein Trinkgeld geben. Mehr Informationen zu Taxis vom Flughafen zum Hotel, haben wir unter [Hotel](../hotel?lang=de#hoteltaxi) für euch zusammengestellt.
+Es gibt natürlich auch Taxen (und [Ubers](https://www.uber.com/cities/chicago/)) in Chicago. Wie ihr ein Taxi richtig heran winkt, erfahrt ihr in [diesem Artikel](https://www.evernote.com/shard/s34/sh/47750197-96da-44b1-a3ac-a399877e7cdd/2adf3f84ec7d210f). Im Taxi (aber nicht in Ubers) sollte man immer ein Trinkgeld geben. Mehr Informationen zu Taxen vom Flughafen zum Hotel, haben wir unter [Hotel](../hotel?lang=de#hoteltaxi) für euch zusammengestellt.
 
 
 <span id="chicagoaccomodation"></span>
