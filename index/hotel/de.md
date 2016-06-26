@@ -17,7 +17,7 @@ Vom Hotel aus ist die Innenstadt von Chicago in ca. 1 Stunde erreichbar (10 Minu
 
 ## Wie
 
-Zimmer können per Telefon unter +1 866-381-4803 reserviert werden. Vergesst nicht anzugeben, dass ihr ein Zimmer im 'Williams-Lohse Wedding Room Block' buchen möchtet. Ihr könnt aber ebenso Zimmer online buchen, wenn ihr [diesem Link folgt](http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Williams/Lohse%20Wedding%20Group%20Room%20Block%5Echihp%60wlwwlwa%7Cwlwwlwb%60109.00%60USD%60false%604%609/8/16%609/11/16%6008/18/2016&app=resvlink&stop_mobi=yes). Reservierungen müssen bis zum Donnerstag, den 18.8., getätigt werden.
+Zimmer können per Telefon unter +1 866-381-4803 reserviert werden. Vergesst nicht anzugeben, dass ihr ein Zimmer im 'Williams-Lohse Wedding Room Block' buchen möchtet. Ihr könnt aber ebenso Zimmer online buchen, wenn ihr [diesem Link folgt](http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Williams/Lohse%20Wedding%20Room%20Block%5ECHIHP%60WLWWLWA%7CWLWWLWB%60109.00%60USD%60false%604%609/7/16%609/11/16%608/18/16&app=resvlink&stop_mobi=yes). Reservierungen müssen bis zum Donnerstag, den 18.8., getätigt werden.
 
 Es gibt zwei verschiedene Zimmertypen im Hotelblock:
 

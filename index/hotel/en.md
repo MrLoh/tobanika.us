@@ -17,7 +17,7 @@ The hotel is about an hour from downtown Chicago (10 minutes with shuttle to tra
 
 ## How
 
-Room reservations can be made via phone at +1 866-381-4803 (be sure to specify the Williams-Lohse Wedding Room Block) or online: [Book your group rate](http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Williams/Lohse%20Wedding%20Group%20Room%20Block%5Echihp%60wlwwlwa%7Cwlwwlwb%60109.00%60USD%60false%604%609/8/16%609/11/16%6008/18/2016&app=resvlink&stop_mobi=yes) for Williams/Lohse Wedding Group Room Blocks
+Room reservations can be made via phone at +1 866-381-4803 (be sure to specify the Williams-Lohse Wedding Room Block) or online: [Book your group rate for Williams/Lohse Wedding Group Room Blocks](http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Williams/Lohse%20Wedding%20Room%20Block%5ECHIHP%60WLWWLWA%7CWLWWLWB%60109.00%60USD%60false%604%609/7/16%609/11/16%608/18/16&app=resvlink&stop_mobi=yes)
 
 Reservations must be made on or before Thursday, August 18th, as this is the Cutoff Date for the Room Block.
 
