@@ -16,7 +16,7 @@
 
 - [10:30 | Gottesdienst](#church)
 - [15:00 | Chicago Stadtführung](#citytour)
-- [19:00 | Besuch einer lokalen Brauerei](#brewery)
+- [18:30 | Besuch einer lokalen Brauerei](#brewery)
 
 **Montag**
 
@@ -104,10 +104,11 @@ Erkunde die bewegte Geschichte und atemberaubende Architektur der 'Windy City' a
 
 -------------------------------------------------------------------------------
 
-<span id="brewery">19:00 Uhr</span>
+<span id="brewery">18:30 Uhr</span>
 ### Brauereitour und Verkostung
 ![](brewery.jpg)
-Treffpunkt wird bekannt gegeben.
+Revolution Brewing Tap Room <br>
+[3340 N Kedzie Ave, Chicago, IL 60618](https://encrypted.google.com/maps/place/Revolution+Brewing+Tap+Room)
 
 Lasst die Stadtführung mit dem Besuch einer Brauerei ausklingen, in die euch der Bruder der Braut - ein ausgewiesener Bierkenner - führen wird. Chicago hat seit einigen Jahren eine sehr lebendige Szene von zahlreichen kleinen lokalen Brauereien — sogenannten [craft breweries](http://www.timeout.com/chicago/bars/chicagos-craft-beer-scene) — welche sehr innovativ sind und dem Vergleich zu deutschem Bier ohne Abstriche standhalten. Bei der Führung kannst du etwas über die verschiedenen alten und neuen Biersorten lernen, welche sich einer wachsenden Popularität in den USA erfreuen. Weitere Details folgen in Kürze. Bitte beachtet, dass die Verkostung von Bier in den USA erst ab dem 21. Lebensjahr erlaubt ist.
 

@@ -16,7 +16,7 @@
 
 - [10:30 AM | Church Service at DeerGrove](#church)
 - [3:00 PM | Chicago City Tour](#citytour)
-- [7:00 PM | Craft Brewery Tour and Tasting](#brewery)
+- [6:30 PM | Craft Brewery Tour and Tasting](#brewery)
 
 **Monday**
 
@@ -104,10 +104,11 @@ Experience the breathtaking architecture and colorful history of the Windy City 
 
 -------------------------------------------------------------------------------
 
-<span id="brewery">7:00 PM</span>
+<span id="brewery">6:30 PM</span>
 ### Craft Brewery Tour
 ![](brewery.jpg)
-Location to be announced.
+Revolution Brewing Tap Room <br>
+[3340 N Kedzie Ave, Chicago, IL 60618](https://encrypted.google.com/maps/place/Revolution+Brewing+Tap+Room)
 
 End the city tour with a visit to a local [Chicago craft brewery](http://www.timeout.com/chicago/bars/chicagos-craft-beer-scene), with a guided tour and tasting.  Learn about the different styles of beer that have become famous in the US in the past few years from the Bride's beer connoisseur brother, and enjoy some delicious cold brew. Even the German Groom is impressed by the selection and creativity of the modern brews of the American craft brewery scene. More details to follow.  Please keep in mind that this is a 21+ event.
 
