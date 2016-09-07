@@ -1,4 +1,6 @@
 
+We have put together information about the events happening during this weekend, and also some information about the hotel for you in [this file](manual.pdf). Please read through everything on the day before so that you don’t miss anything important! 
+
 -------------------------------------------------------------------------------
 
 **Friday**
@@ -33,7 +35,7 @@
 Libertyville Covenant Church <br>
 [250 S St. Mary's Rd, Libertyville, IL 60048](https://www.google.com/maps/place/Libertyville+Covenant+Church)
 
-We want to get married in front of our friends and family as a witness to the role you all have played, and continue to play, in our lives.  We will be married by two pastors, one German and one American, who have been important to each of us.  Please come witness our marriage and then join us for a large group photo afterwards in front of the church.
+We want to get married in front of our friends and family as a witness to the role you all have played, and continue to play, in our lives. We will be married by two pastors, one German and one American, who have been important to each of us. Please come witness our marriage and then join us for a large group photo afterwards in front of the church. Please do not take pictures during the service. 
 
 -------------------------------------------------------------------------------
 
@@ -79,7 +81,7 @@ Ravinia Festival <br>
 
 The 1939 American classic [The Wizard of Oz](https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)) will be shown on big screens throughout the park, while the [Chicago Philharmonic](http://www.chicagophilharmonic.org) plays the soundtrack live! Please bring food and drink, as we will be picnicking together before the show begins.  Join us at 5:30 PM to hang out and dine before the show starts at 7:00 PM.
 
-Tickets are $30, which includes entry and a rental chair and table.  The cost is $15 for students (including university and PhD students, valid only with student ID which indicates an expiration date).  Children under 15 are free. Tickets are limited, so please indicate on your RSVP card or by email ([us@tobanika.us](mailto:us@tobanika.us)) if you would like a ticket for this event.  First come, first served.
+Tickets are $17 for adults, $13 for students (including university and PhD students, valid only with student ID which indicates an expiration date), and $5 for children under 15, which includes entry and a rental chair and table. Bring money to pay the Bride’s mother back, Julie Williams, in cash or with check (made out to her) at Ravinia in exchange for your ticket. Someone from the Wedding Party Group will be at the Main Gate to hand out tickets. 
 
 -------------------------------------------------------------------------------
 
@@ -95,42 +97,49 @@ Join us for morning worship service at [the Bride's home church](http://deergrov
 
 -------------------------------------------------------------------------------
 
-<span id="citytour">3:00 PM</span>
+<span id="citytour">2:30 PM</span>
 ### Chicago City Tour
 ![](chicago.jpg)
-Meeting location to be announced.
+Meet at Jamba Juice in Union Station <br>
+[225 S Canal St, Chicago, IL 60606](https://www.google.com/maps/place/Union+Station/)
 
-Experience the breathtaking architecture and colorful history of the Windy City with us on a walking tour. More details to follow.
+Experience the breathtaking architecture and colorful history of the Windy City with us on a walking tour. 
+
+When you arrive at Union Station (the last stop), go upstairs and find the Jamba Juice, where we will meet up at 2:30 PM. The tour will be tip-based, and we recommend to tip around $10 per person. 
 
 -------------------------------------------------------------------------------
 
-<span id="brewery">6:30 PM</span>
+<span id="brewery">5:30 PM</span>
 ### Craft Brewery Tour
 ![](brewery.jpg)
 Revolution Brewing Tap Room <br>
 [3340 N Kedzie Ave, Chicago, IL 60618](https://encrypted.google.com/maps/place/Revolution+Brewing+Tap+Room)
 
-End the city tour with a visit to a local [Chicago craft brewery](http://www.timeout.com/chicago/bars/chicagos-craft-beer-scene), with a guided tour and tasting.  Learn about the different styles of beer that have become famous in the US in the past few years from the Bride's beer connoisseur brother, and enjoy some delicious cold brew. Even the German Groom is impressed by the selection and creativity of the modern brews of the American craft brewery scene. More details to follow.  Please keep in mind that this is a 21+ event.
+End the city tour with a visit to a local [Chicago craft brewery](http://www.timeout.com/chicago/bars/chicagos-craft-beer-scene), with a guided tour and tasting.  Learn about the different styles of beer that have become famous in the US in the past few years from the Bride's beer connoisseur brother, and enjoy some delicious cold brew. Even the German Groom is impressed by the selection and creativity of the modern brews of the American craft brewery scene. More details to follow. Please keep in mind that this is a 21+ event.
 
 -------------------------------------------------------------------------------
 
 ## Mon : Sept 12
 
-<span id="art">11:00 AM – 5:00 PM</span>
+<span id="art">1:00 PM</span>
 ### Art Institute Visit
 ![](artinstitute.jpg)
-
-Art Institute of Chicago <br>
+Art Institute of Chicago, left lion <br>
 [111 S Michigan Ave, Chicago, IL 60603](https://www.google.com/maps/place/The+Art+Institute+of+Chicago)
 
 We would love for you to join us in visiting Chicago's most famous (and the Groom's favorite) museum, the [Art Institute](http://www.artic.edu). Walk past the famous bronze lions and enter a great museum with some amazing art, including the Chagall window, Impressionist and Expressionist paintings, Edward Hopper's [Nighthawks](http://wikiwand.com/en/Nighthawks), and some miniature dollhouse rooms (little Anika's favorite exhibit).
 
+Whoever wants to come can just show up at 1:00 PM. We will be meeting at the big left Lion (left when entering the museum). 
+
+
 -------------------------------------------------------------------------------
 
-<span id="baseball">7:00 PM</span>
+<span id="baseball">6:45 PM</span>
 ### White Sox Baseball Game
 ![](baseballfield.jpg)
-US Cellular Field <br>
+US Cellular Field, Gate 3 <br>
 [333 W 35th St, Chicago, IL 60616](https://www.google.com/maps/place/U.S.+Cellular+Field)
 
 Join us for a classic ballgame between the Bride’s favorite team, the [Chicago White Sox](http://chicago.whitesox.mlb.com), and the Cleveland Indians.  If you don’t know much about baseball, this is your chance to have a great American experience and learn how the game is played.  Baseball games are a great background for socializing, drinking beer, and eating hotdogs.  No need to worry about standing and cheering for several hours.  Be sure to wear black and white!  And absolutely no red!
+
+Tickets for the game will be handed out before the game. Meet us around 6:45 PM at Gate 3 to get your ticket in exchange for $11 per ticket. We will be sitting in Section 520, Rows 10-13.
