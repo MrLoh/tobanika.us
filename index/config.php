@@ -21,16 +21,18 @@ $lang = get("lang", $lang);
 
 if($lang=="de"){
 	$menu_items = array(
+        "photos"=>"Photos",
 		"program"=>"Programm",
 		"hotel"=>"Hotel",
 		"travel"=>"Reiseinfos",
-		"registry"=>"Wunschliste",
+		// "registry"=>"Wunschliste"
 	);
 } else {
 	$menu_items = array(
+        "photos"=>"Photos",
 		"program"=>"Program",
 		"hotel"=>"Hotel",
 		"travel"=>"Travel",
-		"registry"=>"Registry",
+		// "registry"=>"Registry",
 	);
 }

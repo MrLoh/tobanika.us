@@ -13,6 +13,7 @@ $title = $menu_items[$dir];
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 	<link rel="stylesheet" href="../assets/css/main.min.css">
 	<link rel="icon" type="image/png" href="../favicon.png" />
+	<?php if(isset($extra_header)) echo($extra_header)?>
 
 	<script src="https://use.typekit.net/tho7pee.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -45,6 +46,7 @@ $title = $menu_items[$dir];
 			<img src="<?php echo("title_$lang.svg"); ?>" alt="<?php echo($title) ?>" />
 		</h1>
 		<?php echo(markdownify("$lang.md")); ?>
+		<?php if(isset($extra_content)) echo($extra_content)?>
     </main>
 	<footer>
 		<div class="content">
@@ -68,6 +70,7 @@ $title = $menu_items[$dir];
 		</div>
 		<img class="skyline" src="../assets/svg/chicago.svg" alt="" />
 	</footer>
+	<?php if(isset($extra_footer)) echo($extra_footer)?>
 </body>
 
 <script type="text/javascript">

@@ -7,6 +7,7 @@ if($lang=="de"){
 		"hotel"=>"Übernachtungsmöglichkeiten fürs Hochzeitswochenende:",
 		"travel"=>"Für alle die einen Urlaub in den USA planen:",
 		"registry"=>"Inspirationen für Hochzeitsgeschenke:",
+		"photos"=>"Hier findest du unsere Hochzeitsphotos:"
 	);
 } else {
 	$menu_blobs = array(
@@ -14,6 +15,7 @@ if($lang=="de"){
 		"hotel"=>"If you need accommodations for the Wedding Weekend:",
 		"travel"=>"For out-of-town guests planning a longer stay in Chicago:",
 		"registry"=>"See what our home could look like someday:",
+		"photos"=>"See photos from our wedding celebrations:"
 	);
 }
 
