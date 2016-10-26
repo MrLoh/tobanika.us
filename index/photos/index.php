@@ -13,9 +13,20 @@ $extra_header = <<<DOC
 <script src="gallery.js"></script>
 DOC;
 
+include_once("../config.php");
+
+$t1 = $lang == "de" ? "Passwort" : "Password";
+$t2 = $lang == "de" ? "Photos anzeigen" : "See Pictures";
 
 $extra_content = <<<DOC
-    <div class="gallery"><img src="../assets/lib/photoswipe-default-skin/preloader.gif" alt="loading images" style="width:15px; margin-left: 2em"></div>
+<p>
+    <form>
+        <label for="password">{$t1}:</label>
+        <input type="password", id="password"></input>
+        <input type="submit" id="getpics" value="{$t2}">
+    </form>
+</p>
+<div class="gallery"></div>
 DOC;
 
 
