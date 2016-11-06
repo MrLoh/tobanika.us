@@ -31,7 +31,7 @@ $extra_content = <<<DOC
         <input type="submit" id="getpics" value="{$t2}">
     </form>
 </p>
-<div class="gallery"></div>
+<div id="galleries"></div>
 DOC;
 
 include_once("../main.php");

@@ -527,10 +527,19 @@ footer {
 }
 
 .photos {
+	p {
+		max-width: 70rem;
+	}
+
 	text-align: center;
 
 	h2 {
 		font-size: 2rem;
+	}
+
+	#galleries {
+		max-width: none;
+		padding: 0;
 	}
 
 	.gallery {
