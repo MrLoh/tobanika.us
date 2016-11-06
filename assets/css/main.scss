@@ -562,3 +562,15 @@ footer {
 		}
 	}
 }
+
+.lg-outer .lg-thumb-item {
+	border: none !important;
+}
+
+.lg-outer .lg-thumb-item.active {
+	border: 2px solid white !important;
+}
+
+.lg-backdrop {
+	background: rgba(black, 0.9) !important;
+}
