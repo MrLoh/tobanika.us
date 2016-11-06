@@ -49,7 +49,7 @@ $(function() {
             hideControlOnEnd: true,
             loop: false,
             speed: 300,
-            hideBarsDelay: 2000,
+            hideBarsDelay: 500,
             preload: 10
         });
     }
