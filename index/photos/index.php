@@ -5,6 +5,7 @@ $extra_header = <<<DOC
 <link rel="stylesheet" href="../assets/lib/photoswipe.min.css">
 <link rel="stylesheet" href="../assets/lib/photoswipe-default-skin/default-skin.css">
 
+<script src="../assets/lib/masonry.min.js"></script>
 <script src="../assets/lib/photoswipe.min.js"></script>
 <script src="../assets/lib/photoswipe-ui-default.min.js"></script>
 

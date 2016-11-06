@@ -3,3 +3,4 @@ node_modules
 .sass-cache
 survey/responses.csv
 *.psd
+index/photos/img
