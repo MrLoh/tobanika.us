@@ -37,13 +37,15 @@ $(function() {
             }, "");
         });
 
-        setTimeout(function() {
-            new Masonry( ".gallery", {
-                itemSelector: ".gallery img",
-                columnWidth: ".gallery img",
-                fitWidth: true
-            });
-        }, 1000);
+        var masonry = $('.gallery').masonry({
+            itemSelector: ".gallery img",
+            columnWidth: ".gallery img",
+            fitWidth: true
+        });
+
+        masonry.imagesLoaded().progress( function() {
+            masonry.masonry('layout');
+        });
 
         $(".gallery").lightGallery({
             hideControlOnEnd: true,

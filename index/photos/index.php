@@ -6,6 +6,7 @@ $extra_header = <<<DOC
 
 <script src="../assets/lib/jquery-2.1.4.min.js"></script>
 
+<script src="../assets/lib/imagesloaded.min.js"></script>
 <script src="../assets/lib/masonry.min.js"></script>
 
 <script src="../assets/lib/lightgallery.min.js"></script>
