@@ -1,4 +1,4 @@
-var PASSWORD = "kenilworth";
+var PWD_HASH = "fce159582eea4b3fdb928cc0a9e312c4";
 
 var range = function(i, j) {
     return Array.apply(null, Array(j-i+1)).map(function (_, k) {return i+k;});
@@ -22,7 +22,7 @@ $(function() {
     var lang = $(".lang-link a").text().trim().toLowerCase() === "de" ? "en" : "de";
 
     window.location.href.split("?")[1].split("#")[0].split("&").map(function(e) {
-        if (e.split("=")[0] == "pw" && e.split("=")[1] == PASSWORD) {
+        if (e.split("=")[0] == "pw" && md5(e.split("=")[1]) === PWD_HASH) {
             $("#getpics").parent().remove();
             loadImages();
         }
@@ -30,7 +30,7 @@ $(function() {
 
     $("#getpics").click(function(e) {
         e.preventDefault();
-        if ($("#password").val() == PASSWORD) {
+        if (md5($("#password").val()) === PWD_HASH) {
             $(this).parent().remove();
             loadImages();
         } else {
@@ -40,13 +40,13 @@ $(function() {
 
     function loadImages() {
         var galleryArea = $("#galleries");
-        addGallery(galleryArea, "Ceremony", 60, "ceremony");
+        addGallery(galleryArea, "Ceremony", 61, "ceremony");
         addGallery(galleryArea, "Group Pictures", 53, "group_pictures");
-        addGallery(galleryArea, "Reception", 77, "reception");
-        // addGallery(galleryArea, "Saturday", , "saturday");
-        // addGallery(galleryArea, "Sunday", , "sunday");
-        // addGallery(galleryArea, "Monday", , "monday");
-        // addGallery(galleryArea, "Honeymoon", 44, "honeymoon");
+        addGallery(galleryArea, "Reception", 79, "reception");
+        addGallery(galleryArea, "Saturday", 31, "saturday");
+        addGallery(galleryArea, "Sunday", 30, "sunday");
+        addGallery(galleryArea, "Monday", 34, "monday");
+        addGallery(galleryArea, "Honeymoon", 44, "honeymoon");
 
         var masonry = $('.gallery').masonry({
             itemSelector: ".gallery img",

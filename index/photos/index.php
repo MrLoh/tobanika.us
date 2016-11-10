@@ -15,6 +15,8 @@ $extra_header = <<<DOC
 <script src="../assets/lib/lg-thumbnail.min.js"></script>
 <script src="../assets/lib/lg-fullscreen.min.js"></script>
 
+<script src="../assets/lib/md5.min.js"></script>
+
 <script src="gallery.js"></script>
 DOC;
 
