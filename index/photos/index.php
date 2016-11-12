@@ -22,12 +22,15 @@ DOC;
 
 include_once("../config.php");
 
+$p1 = $lang == "de" ? "Das Passwort findet ihr auf der Dankeschön Karte, oder fragt uns einfach." : "Please find the password on the thank you card, or ask us to get access.";
+
 $t1 = $lang == "de" ? "Passwort" : "Password";
 $t2 = $lang == "de" ? "Photos anzeigen" : "See Pictures";
 
 $extra_content = <<<DOC
 <p>
     <form>
+        <p>{$p1}</p>
         <label for="password">{$t1}:</label>
         <input type="password", id="password"></input>
         <input type="submit" id="getpics" value="{$t2}">
