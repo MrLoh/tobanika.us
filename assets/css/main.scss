@@ -556,8 +556,7 @@ footer {
 	.gallery {
 		max-width: none;
 		padding: 0;
-		// columns: auto 3;
-		// column-gap: 1rem;
+		margin: 0 auto;
 		img {
 			border-radius: 0.2rem;
 			cursor: pointer;
